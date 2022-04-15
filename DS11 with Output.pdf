@@ -1,0 +1,1251 @@
+%PDF-1.4
+%âãÏÓ
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 7 0 R
+/F1 8 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 25131
+>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (  1  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (/*) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr (  2  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (DS11:Design, Develop and Implement a Program in C for the following operations on) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr (  3  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 59.70 Tm 0 Tr (     ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 88.35 59.70 Tm 0 Tr (Graph\(G\) of Cities) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr (  4  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 71.04 Tm 0 Tr (a.Create a Graph of N cities using Adjacency Matrix.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (  5  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (b.Print all the nodes reachable from a given starting node in a digraph using) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (  6  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 93.71 Tm 0 Tr (DFS/BFS method.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (  7  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (  8  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 116.39 Tm 0 Tr (The program contains 3 functions:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr (  9  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 127.73 Tm 0 Tr (DFS\(\) function) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr ( 10  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 139.07 Tm 0 Tr (BFS\(\) function) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr ( 11  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 150.41 Tm 0 Tr (main\(\) function) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( 12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( 13  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 173.08 Tm 0 Tr (DFS:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr ( 14  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (Input : Adjacency matrix representation of the graph.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr ( 15  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 195.76 Tm 0 Tr (output: Nodes/vertices connected) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr ( 16  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 207.10 Tm 0 Tr (        ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 106.35 207.10 Tm 0 Tr (Whether graph is connected or not.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr ( 17  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 218.44 Tm 0 Tr (BFS:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr ( 18  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 229.78 Tm 0 Tr (Input : Adjacency matrix representation of the graph.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr ( 19  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (        ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 106.35 241.11 Tm 0 Tr (Starting vertex) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr ( 20  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (output: All the nodes/vertices that can be reached from starting vertex.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr ( 21  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 263.79 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr ( 22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr ( 23  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 58.35 286.47 Tm 0 Tr (#include <stdio.h>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr ( 24  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 58.35 297.81 Tm 0 Tr (#include <stdlib.h>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr ( 25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr ( 26  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 320.48 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 311.81 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 320.48 Tm 0 Tr (a) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 320.48 Tm 0 Tr ([) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 94.35 320.48 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 320.48 Tm 0 Tr (][) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 320.48 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 320.48 Tm 0 Tr (];          ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 202.35 320.48 Tm 0 Tr (// Two dimensional array for adjacency matrix) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr ( 27  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 331.82 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 323.15 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 331.82 Tm 0 Tr (q) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 331.82 Tm 0 Tr ([) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 94.35 331.82 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 331.82 Tm 0 Tr (];             ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 196.35 331.82 Tm 0 Tr (// Queue used for BFS function.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ( 28  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 343.16 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 334.49 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 343.16 Tm 0 Tr (visited) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 343.16 Tm 0 Tr ([) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 130.35 343.16 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 343.16 Tm 0 Tr (];      ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 190.35 343.16 Tm 0 Tr (// Stores all visited nodes.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr ( 29  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 354.50 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 345.83 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 354.50 Tm 0 Tr (reach) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 354.50 Tm 0 Tr ([) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 354.50 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 354.50 Tm 0 Tr (];       ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 184.35 354.50 Tm 0 Tr (// Stores final reached nodes) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr ( 30  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 365.84 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 357.17 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 365.84 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 365.84 Tm 0 Tr (;              ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 178.35 365.84 Tm 0 Tr (// Number of nodes) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr ( 31  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 377.18 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 368.51 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 377.18 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 377.18 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 368.51 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 377.18 Tm 0 Tr (j) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 377.18 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr ( 32  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 388.52 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 379.85 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 388.52 Tm 0 Tr (f) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 388.52 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 94.35 388.52 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 388.52 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 379.85 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 388.52 Tm 0 Tr (r) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 388.52 Tm 0 Tr (=-) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 124.35 388.52 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 388.52 Tm 0 Tr (;    ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 160.35 388.52 Tm 0 Tr (// f:front,r:rear \(Used in queue function of BFS\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr ( 33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr ( 34  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 411.19 Tm 0 Tr (int ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 82.35 411.19 Tm 0 Tr (count) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 411.19 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 411.19 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 411.19 Tm 0 Tr (;   ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 148.35 411.19 Tm 0 Tr (//Stores the number of nodes visited.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr ( 35  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 422.53 Tm 0 Tr (/*) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr ( 36  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (if count == n-1 then all the nodes in a graph is connected.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr ( 37  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 445.21 Tm 0 Tr (otherwise the graph has node\(s\) that are not connected by any nodes.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr ( 38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr ( 39  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 467.89 Tm 0 Tr (if\(0\) means the statement following if condition will not be executed.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr ( 40  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 479.22 Tm 0 Tr (if\(1\) means the statement following if condition will be executed.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr ( 41  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 490.56 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr ( 42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr ( 43  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 513.24 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 504.57 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 513.24 Tm 0 Tr (DFS) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 513.24 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 112.35 513.24 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 504.57 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 513.24 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 513.24 Tm 0 Tr (\)                              ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 328.35 513.24 Tm 0 Tr (//DFS function) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.58 Tm 0 Tr ( 44  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.58 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.92 Tm 0 Tr ( 45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 535.92 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 535.92 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 527.25 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 535.92 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 535.92 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 527.25 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 535.92 Tm 0 Tr (reach) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 535.92 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 527.25 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 535.92 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 535.92 Tm 0 Tr (]=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 178.35 535.92 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 535.92 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.26 Tm 0 Tr ( 46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.26 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 547.26 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 547.26 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 538.59 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 547.26 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 547.26 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 547.26 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 547.26 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 538.59 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 547.26 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 547.26 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 538.59 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 547.26 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 547.26 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 538.59 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 547.26 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 547.26 Tm 0 Tr (++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr ( 47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 558.59 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 558.59 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr ( 48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 569.93 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 569.93 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 569.93 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 561.26 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 569.93 Tm 0 Tr (a) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 569.93 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 561.26 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 569.93 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 569.93 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 561.26 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 569.93 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 569.93 Tm 0 Tr (] && !) Tj  ET Q
+1.000 1.000 1.000 rg
+220.35 561.26 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 569.93 Tm 0 Tr (reach) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 569.93 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+256.35 561.26 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 569.93 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 569.93 Tm 0 Tr (]\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr ( 49  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (            ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 581.27 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr ( 50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 592.61 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 583.94 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 592.61 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 592.61 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 196.35 592.61 Tm 0 Tr ("\\n %d->%d") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 592.61 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+268.35 583.94 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 592.61 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 592.61 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 583.94 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 592.61 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 592.61 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.95 Tm 0 Tr ( 51  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 603.95 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 154.35 603.95 Tm 0 Tr (count) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 603.95 Tm 0 Tr (++;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.29 Tm 0 Tr ( 52  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.29 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 606.62 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 615.29 Tm 0 Tr (DFS) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 615.29 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 606.62 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 615.29 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 615.29 Tm 0 Tr (\);                    ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 316.35 615.29 Tm 0 Tr (//Recursive function call) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.63 Tm 0 Tr ( 53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 626.63 Tm 0 Tr (            ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 626.63 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr ( 54  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 637.96 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 637.96 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr ( 55  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 649.30 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr ( 56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr ( 57  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 671.98 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 663.31 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 671.98 Tm 0 Tr (BFS) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 671.98 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 112.35 671.98 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 663.31 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 671.98 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 671.98 Tm 0 Tr (\)                          ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 304.35 671.98 Tm 0 Tr (//BFS function definition) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.32 Tm 0 Tr ( 58  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 683.32 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.66 Tm 0 Tr ( 59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 694.66 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 694.66 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 694.66 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 685.99 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 694.66 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 694.66 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 694.66 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 694.66 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 685.99 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 694.66 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 694.66 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 685.99 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 694.66 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 694.66 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 685.99 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 694.66 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 694.66 Tm 0 Tr (++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.00 Tm 0 Tr ( 60  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 706.00 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 706.00 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 706.00 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 697.33 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 706.00 Tm 0 Tr (a) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 706.00 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 697.33 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 706.00 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 706.00 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 697.33 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 706.00 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 706.00 Tm 0 Tr (] && !) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 697.33 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 706.00 Tm 0 Tr (visited) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 706.00 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+244.35 697.33 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 706.00 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 706.00 Tm 0 Tr (]\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr ( 61  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 717.33 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 708.66 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 717.33 Tm 0 Tr (q) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 717.33 Tm 0 Tr ([++) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 708.66 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 717.33 Tm 0 Tr (r) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 717.33 Tm 0 Tr (]=) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 708.66 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 717.33 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 717.33 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr ( 62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr ( 63  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 740.01 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 740.01 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 740.01 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 731.34 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 740.01 Tm 0 Tr (f) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 740.01 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 731.34 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 740.01 Tm 0 Tr (r) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 740.01 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr ( 64  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 751.35 Tm 0 Tr (                ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 751.35 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr ( 65  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 762.69 Tm 0 Tr (                    ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 754.02 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 762.69 Tm 0 Tr (visited) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 762.69 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 762.69 Tm 0 Tr (q) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 762.69 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+238.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 762.69 Tm 0 Tr (f) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 762.69 Tm 0 Tr (]]=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 262.35 762.69 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 762.69 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.03 Tm 0 Tr ( 66  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 774.03 Tm 0 Tr (                    ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 765.36 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 774.03 Tm 0 Tr (BFS) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 774.03 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 765.36 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 774.03 Tm 0 Tr (q) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 774.03 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 765.36 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 774.03 Tm 0 Tr (f) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 774.03 Tm 0 Tr (++]\);          ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 310.35 774.03 Tm 0 Tr (//Recursive function call) Tj  ET Q
+Q
+
+endstream
+endobj
+10 0 obj
+<<
+/Length 28426
+>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr ( 67  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (                ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 37.02 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr ( 68  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr ( 69  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr ( 70  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 71.04 Tm 0 Tr (/*) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr ( 71  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (For both DFS and BFS, the common input is -) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr ( 72  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 93.71 Tm 0 Tr (number of vertices and adjacenecy matrix representing a graph.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr ( 73  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 105.05 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr ( 74  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 58.35 116.39 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 107.72 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 116.39 Tm 0 Tr (main) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 116.39 Tm 0 Tr (\(\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.73 Tm 0 Tr ( 75  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 127.73 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.07 Tm 0 Tr ( 76  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 139.07 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 139.07 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 130.40 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 139.07 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 139.07 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 130.40 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 139.07 Tm 0 Tr (ch) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 139.07 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.41 Tm 0 Tr ( 77  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( 78  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 161.74 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 153.07 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 161.74 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 161.74 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 124.35 161.74 Tm 0 Tr ("\\n Enter the number of vertices:") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 328.35 161.74 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( 79  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 173.08 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 164.41 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 173.08 Tm 0 Tr (scanf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 173.08 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 118.35 173.08 Tm 0 Tr ("%d") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 173.08 Tm 0 Tr (,&) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 164.41 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 173.08 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 173.08 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr ( 80  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr ( 81  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 195.76 Tm 0 Tr (/*) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.10 Tm 0 Tr ( 82  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 207.10 Tm 0 Tr (i=1 means starting from 1st vertex.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.44 Tm 0 Tr ( 83  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 218.44 Tm 0 Tr (Initially all values of 'q' array, 'visited' array and 'reach' array) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.78 Tm 0 Tr ( 84  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 229.78 Tm 0 Tr (are assigned with 0 value.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr ( 85  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (This value will change as we evaluate step by step.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr ( 86  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr ( 87  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 263.79 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 263.79 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 263.79 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 255.12 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 263.79 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 263.79 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 263.79 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 263.79 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 255.12 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 263.79 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 263.79 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 255.12 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 263.79 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 263.79 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 255.12 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 263.79 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 263.79 Tm 0 Tr (++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr ( 88  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 275.13 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 275.13 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.47 Tm 0 Tr ( 89  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.47 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 277.80 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 286.47 Tm 0 Tr (q) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 286.47 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 277.80 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 286.47 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 286.47 Tm 0 Tr (]=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 160.35 286.47 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 286.47 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.81 Tm 0 Tr ( 90  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 297.81 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 289.14 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 297.81 Tm 0 Tr (visited) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 297.81 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 289.14 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 297.81 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 297.81 Tm 0 Tr (]=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 196.35 297.81 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 297.81 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.15 Tm 0 Tr ( 91  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 309.15 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 309.15 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr ( 92  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr ( 93  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 331.82 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 331.82 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 331.82 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 323.15 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 331.82 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 331.82 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 331.82 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 331.82 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 323.15 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 331.82 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 331.82 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 323.15 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 331.82 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 331.82 Tm 0 Tr (-) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 160.35 331.82 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 331.82 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 323.15 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 331.82 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 331.82 Tm 0 Tr (++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ( 94  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 343.16 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 334.49 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 343.16 Tm 0 Tr (reach) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 343.16 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 334.49 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 343.16 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 343.16 Tm 0 Tr (]=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 160.35 343.16 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 343.16 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr ( 95  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.84 Tm 0 Tr ( 96  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 365.84 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 357.17 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 365.84 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 365.84 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 124.35 365.84 Tm 0 Tr ("\\n Enter graph data in matrix form:\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 365.84 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.18 Tm 0 Tr ( 97  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 377.18 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 377.18 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 377.18 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 368.51 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 377.18 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 377.18 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 377.18 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 377.18 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 368.51 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 377.18 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 377.18 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 368.51 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 377.18 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 377.18 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 368.51 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 377.18 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 377.18 Tm 0 Tr (++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.52 Tm 0 Tr ( 98  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 388.52 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 388.52 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 388.52 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 379.85 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 388.52 Tm 0 Tr (j) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 388.52 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 142.35 388.52 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 388.52 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 379.85 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 388.52 Tm 0 Tr (j) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 388.52 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 379.85 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 388.52 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 388.52 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+184.35 379.85 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 388.52 Tm 0 Tr (j) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 388.52 Tm 0 Tr (++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr ( 99  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 399.85 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 391.18 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 399.85 Tm 0 Tr (scanf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 399.85 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 166.35 399.85 Tm 0 Tr ("%d") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 399.85 Tm 0 Tr (,&) Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 391.18 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 399.85 Tm 0 Tr (a) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 399.85 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 391.18 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 399.85 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 399.85 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 391.18 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 399.85 Tm 0 Tr (j) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 399.85 Tm 0 Tr (]\);           ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 322.35 399.85 Tm 0 Tr (//adjacency matrix) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (100  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (101  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 422.53 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 413.86 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 422.53 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 422.53 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 124.35 422.53 Tm 0 Tr ("1.DFS\\n 2.BFS\\n 3.Exit\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 422.53 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (102  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 425.20 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 433.87 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 433.87 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 124.35 433.87 Tm 0 Tr ("Enter the choice\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 433.87 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.21 Tm 0 Tr (103  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 445.21 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 436.54 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 445.21 Tm 0 Tr (scanf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 445.21 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 118.35 445.21 Tm 0 Tr ("%d") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 445.21 Tm 0 Tr (,&) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 436.54 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 445.21 Tm 0 Tr (ch) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 445.21 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.55 Tm 0 Tr (104  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.89 Tm 0 Tr (105  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (106  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 479.22 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 479.22 Tm 0 Tr (switch) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 479.22 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 470.55 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 479.22 Tm 0 Tr (ch) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 479.22 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (107  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 490.56 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 490.56 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (108  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 501.90 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 501.90 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 501.90 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 501.90 Tm 0 Tr (: ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 493.23 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 501.90 Tm 0 Tr (DFS) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 501.90 Tm 0 Tr (\() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 178.35 501.90 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 501.90 Tm 0 Tr (\);                   ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 310.35 501.90 Tm 0 Tr (//Start from node 1) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (109  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 513.24 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 513.24 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 513.24 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 172.35 513.24 Tm 0 Tr (count ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 513.24 Tm 0 Tr (== ) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 504.57 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 513.24 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 513.24 Tm 0 Tr (-) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 238.35 513.24 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 513.24 Tm 0 Tr (\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.58 Tm 0 Tr (110  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.58 Tm 0 Tr (                    ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 515.91 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 524.58 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 524.58 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 220.35 524.58 Tm 0 Tr ("\\n Graph is connected") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 524.58 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.92 Tm 0 Tr (111  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 535.92 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 535.92 Tm 0 Tr (else) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.26 Tm 0 Tr (112  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.26 Tm 0 Tr (                    ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 538.59 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 547.26 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 547.26 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 220.35 547.26 Tm 0 Tr ("\\n Graph is not connected") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 547.26 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (113  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 558.59 Tm 0 Tr (                    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 178.35 558.59 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 558.59 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (114  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (115  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 581.27 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 581.27 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 581.27 Tm 0 Tr (: ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 572.60 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 581.27 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 581.27 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 196.35 581.27 Tm 0 Tr ("\\n Enter the starting vertex:") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 581.27 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (116  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 592.61 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 583.94 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 592.61 Tm 0 Tr (scanf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 592.61 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 190.35 592.61 Tm 0 Tr ("%d") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 592.61 Tm 0 Tr (,&) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 583.94 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 592.61 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 592.61 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.95 Tm 0 Tr (117  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.29 Tm 0 Tr (118  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.29 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 606.62 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 615.29 Tm 0 Tr (BFS) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 615.29 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 606.62 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 615.29 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 615.29 Tm 0 Tr (\);  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 208.35 615.29 Tm 0 Tr (//function call for BFS function with v value.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.63 Tm 0 Tr (119  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 626.63 Tm 0 Tr (/*) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (120  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 637.96 Tm 0 Tr (if starting vertex 'v' is less than 1 or) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (121  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 649.30 Tm 0 Tr (greater than number of vertices 'n', then BFS is not possible.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (122  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 58.35 660.64 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (123  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 671.98 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 671.98 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 671.98 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 663.31 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 671.98 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 671.98 Tm 0 Tr (<) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 671.98 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 671.98 Tm 0 Tr (\)||\() Tj  ET Q
+1.000 1.000 1.000 rg
+220.35 663.31 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 671.98 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 671.98 Tm 0 Tr (>) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 663.31 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 671.98 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 671.98 Tm 0 Tr (\)\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.32 Tm 0 Tr (124  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 683.32 Tm 0 Tr (                ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 683.32 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.66 Tm 0 Tr (125  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 694.66 Tm 0 Tr (                    ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 685.99 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 694.66 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 694.66 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 220.35 694.66 Tm 0 Tr ("\\n BFS not possible") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 694.66 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 706.00 Tm 0 Tr (126  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 706.00 Tm 0 Tr (                ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 706.00 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (127  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (128  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 728.67 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 728.67 Tm 0 Tr (else) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (129  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 740.01 Tm 0 Tr (                    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 740.01 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (130  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 751.35 Tm 0 Tr (                        ) Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 742.68 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 751.35 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 751.35 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 244.35 751.35 Tm 0 Tr ("\\n The nodes which are reachable from %d are:\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 538.35 751.35 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+544.35 742.68 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 544.35 751.35 Tm 0 Tr (v) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 550.35 751.35 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (131  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 762.69 Tm 0 Tr (                        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 202.35 762.69 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 762.69 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 762.69 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 762.69 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 238.35 762.69 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 762.69 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 762.69 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 762.69 Tm 0 Tr (<=) Tj  ET Q
+1.000 1.000 1.000 rg
+268.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 762.69 Tm 0 Tr (n) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 762.69 Tm 0 Tr (;) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 762.69 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 762.69 Tm 0 Tr (++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.03 Tm 0 Tr (132  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 774.03 Tm 0 Tr (                            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 226.35 774.03 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 774.03 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+244.35 765.36 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 774.03 Tm 0 Tr (visited) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 774.03 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+292.35 765.36 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 774.03 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 774.03 Tm 0 Tr (]\)) Tj  ET Q
+Q
+
+endstream
+endobj
+11 0 obj
+<<
+/Length 2618
+>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (133  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (                                ) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 28.35 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 37.02 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 37.02 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 292.35 37.02 Tm 0 Tr ("%d\\t") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 328.35 37.02 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+334.35 28.35 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 334.35 37.02 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 37.02 Tm 0 Tr (\);) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 352.35 37.02 Tm 0 Tr (//Printing reachable nodes.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.36 Tm 0 Tr (134  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 48.36 Tm 0 Tr (                    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 48.36 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.70 Tm 0 Tr (135  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 59.70 Tm 0 Tr (                    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 178.35 59.70 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 59.70 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.04 Tm 0 Tr (136  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (137  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 82.37 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 82.37 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 82.37 Tm 0 Tr (: ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 73.70 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 82.37 Tm 0 Tr (exit) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 82.37 Tm 0 Tr (\() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 82.37 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 82.37 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (138  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 93.71 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 93.71 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (139  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 105.05 Tm 0 Tr (}) Tj  ET Q
+Q
+
+endstream
+endobj
+3 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 595.276 841.89]
+/Resources 6 0 R
+/Contents 9 0 R
+/Parent 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 595.276 841.89]
+/Resources 6 0 R
+/Contents 10 0 R
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 595.276 841.89]
+/Resources 6 0 R
+/Contents 11 0 R
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+(Identity)
+endobj
+17 0 obj
+(Adobe)
+endobj
+18 0 obj
+[-549 -250 549 919]
+endobj
+19 0 obj
+<<
+/Filter /FlateDecode
+/Length 43206
+/Length1 94668
+/Type /Stream
+>>
+stream
+xœì½	|Eú?\Õİsß“dL2G&“É}MîƒLîpäN $	7""¢
+«à*«»®ºIE\Q\]<VW×İõZ×UWQ×c×Ådæ}ª«&(îş~ïçı¼ÿÿßşvWWW?õÔSO=UİFEÂF@şªÖñµ‡¿ğ”#tâ]„bj«ªkÔ=ı„Ş¾!şºÚ¦ÆVÕŞn?B± ´ğlmk{E·ùòW®D(¾£¾º¥™ D¼l”ªnlÍÈn¸f·!üwÏZÜ³T»~ß}¥€¾>ëªÎÂ
+MB“–"$©™»tŞbçƒ	p.û„úy=Ë—"rƒ</Ãõúy‹VÏıö¶Ã“jD¨¾dşœÙ_ÍrY¡|HCyó!A«ü_Çñó¯¸úª‡/ƒ²¹D„RîX´dVÏo’ÍGè¯2÷\½4j›áfÈÿ3Èï\<gEOúc9ÓAş«á¸íŠÅs:ïŠ×#tò+/]²|E0=òô’üK¯œ³Ô~ı´!„Šázı)Q—28áĞ|Ú¥+ù) êğ9ú¾-‘ğë;Ş:”5|Ÿä.Ù	È+G¢¸NòáàÂÜ¡¬@³ä.±¤°²¤¨®E=ĞN9p‡ô(uƒ–v‹÷ÅˆærÇÉ%wJ|P¤2ÿ2ú5‡ä
+N%SpœÀsÂ»HDh(Hïzlu:‘¡ï8*ƒl:Çu#|ï;oÀÕßJl¤¦¤tÔ ?„`# 00Èèì<Êò<H@‘°…197Ğ˜ÂÊuä %`>Kû!€,Á7(P 4 _ğÍK,…Õ!$=ò®%uîfû)Õ¬şnÀ=còÏ`ø¡rAWÁ\`Õ©X§còÍd@L§—Xç)?B?‹Û ›“ sYú$–¾°
+°›í³ô:Æ$ß `;wÀ,Ğvw±ı=?B#ÛO"_$»ß¤K(kî%ä‰Fm!rv1Ìgõ70°º×„åiSî¶1ü} =‰MÅÉ?0&ß>Èƒ¥pÍl¦ïKmç›„guk~ ß†Õ?o5C>¤ab¤OËØ~à9–¤ß=z]ğ[à¶°òÈşş°ãıôš‘c²ï¨¢ÿ]àÁcC_Æ;ÂÒ_¼iëÄ®‰Ï¢Àw„Á
+i÷3<Ç+Ùµ-LO¯RÆàqÑ(£åõ!†¶ÂO´Ÿ ‚C£@¿sËôpüAgä£Œ@&ôfoaº%˜
+˜ ŒÄnêgI?ébúŞÃÎ“|¡±‚ôËCÊ$ı“ø4%Ó¹·—ê‰ô‡ \t1_Iú[™07ğÛŸÀÊİÆô”DëHŸÙbÃ&–İ—øİõ,?±Ò/*˜Ş|,¿•ÁÀÒ¬?Ş&‚ÌîBz'¶€^ Ó_H‡ˆêP´ñé€ËXÚF¦—4¦7¢¿V¦?o˜ş: M€,%kŸLßD—ãXşĞ}Iş™a²‡|õ£auù’•ÊÓÃØÃx1+cà4@Oï<¼ pmXÙzVŸP?Äš™¾‰şV2ù
+H}ÊXıw°ıVöŒIYûÂdİÅxÕ˜6*Û¿–ÉUÇî_vÈ”Áú+?ü>@ÁòèªjgD~b“)í3Äş—	tÜ
+Ù9é[Ğ/ELbm±—5¬.^V¢ß…T¯¢œáùI^ÒÆÛYşGÇäÅt
+bŸGŸN1Ÿûà[vì?4
+Lâ¥Ïş_ºöb}‰´/±â_V†ofu$õó{âñq¦9Ó9Ñ¹'±!â‡‰ıD2ıı%‚Lû(Ğ7ÁŠĞ1zQmk(Ğ_(FPŸ.öo±ŒĞ1:÷ÜHZ(Şù1i{<£ó„Ãû"“6…¡’§Á—ØşQÊ#şwñ(Ä²CÇcÎ¤ÍFc¬¹ìšğ´PlT7
+1Oè˜äÉ´3£û#|Ãåpş.ÀGlÿe±-•ŒkãáÂöó PÏòe³²‰ílfıšØGº@m‹ô_2„b‡xöÏŸ	Ôfˆÿ$ız/É=Œçß“±ã†ï²~6¡˜S–'¬,Îwò?úqû?”‡ÅN—²ÿƒùHf„ŒU$^%6ñ5ä)€~1ôG<ô%ÒI,ÓÆòvbé$N,cLÎ% 0i£/i>ô/Úæ8M¸¨O	~ÅbË_2 Kîf¸Š"øï°´æRÿ¡á?Âş?.ñ>èw!Ÿ’û'ÿ¦å‰qåW?¢Ü±õ¹ê{Î×Àùk.r.Loøa
+Ñ-ŸŒ«o‡¥ñ—(Ìop.ƒé×2,`he(e¨gˆf˜ÈPÂ e0R »Ï~™ÉpÅÜy.‚Ğ®Á?1ş#½Çˆü¡i#sz¢GÖ?Ätâ‹öÀ~É¼OY›À×£ñ3ô—àmõãÍae²q/HlŠô+2¦Zg™.Œmõğ/ßq†Èfgq ‘…cçCe“}'uÑ²ƒÙµ—È¢¼„I¼3C]+¼ˆL¬ 5ev^`çHTxnºÈc×Y&_¢.BkG]Œã/'T6‰­/ ëOšq‰÷¼ĞšĞØ<áëBak?Áàò^h.Ìt„ùIâÖàMì¾]ŒÉyb¿$æ]ÖNÄÖˆo"s12g²û“s¡µ"Rw2Ó2n`ç‰í3„Ö‡V 6	ÔRÚ7~„]ï	~Êö³™|ê1ùÉ=ˆçĞñ€Èd¾T¾=)óçƒğ¿#iW0&qÇatnu±µ©¦Ÿbá\ÛÙG¯Å¡y(™‡ä‡1)ŸÌ?nb¼…å‹hló‹sHò
+‹QÉØ1[8gÍI/¶¶Fì9<ÆãzÂÊi¾ÄöÚÍx›5¿fR™ƒ»1	4î
+_c
+­}m.İFB >•¬]'œ»fÒè6ğiXú¾1yö	ç®¿]l}-£Ê/pîbë¢¤ŞMT7âúCx½CıkÓÿO}€CìºĞšì6r>´¶ZßËôIÚñß«Âò‘kbXŞ›ÂÊ#2…ÖXÂ÷	ïeõ%±ìíÂh;1ˆã)ãJ&;ñûÙLî–0„¡#lŸ0ºŞH eºµCK'ö’ÆdÉfº
+ãÙxq;cROb×÷2lf2’1•Ì!?gúØÄê”†’{«Ù>ñ[·R¹‚»(Ä±‚Œ?dNác÷ 6Hæ:‡:o'õø3àç}î@ä¿V]gw
+£k=Dnâ/SÈ5d‹Œy¤/®gÇVZ_'PÒ‰a ¾C¿è×L[’qÚëq~BÖ
+q*·Å¸æÃØÉâu€øu2æÿ2ÌÊ…XÇ"`ÿcÆåOÓc<½'dûA
+±L9»ŞÊîùó}$Ş&mõw
+r-úˆ#kƒd®Eb¤Ïqœœç§ 0wÄ@ËÿÇÑ<b9,*‡~ÿ{ÚæÁ_P]¾¢:’˜÷fÌFÄ¸ƒõ‰ Ñµ’!Ô'IÛ™„ÑñÑ.Œö«pû&vZG],œÛwI\·€í“2~Ê®¹‰¶­Ø Ÿ¸NŒ˜.¿b :…{bËç¦@Ÿt.ã!™{}‹ ±U+ã,ÓY&m#±@?dı†èQÔåóÌ.œL×©Lÿ
+Ñc*›˜şv/Ä„Ö¿Ãü¡¸î]$Œ®õ\‚ÇS{¾à<­ƒå=&ˆóGLæøl-—Ÿ‘5˜*¿çˆ¾*.‚±rT|2~.‚ÿV‹•ë¾.&ßÄ‹àRå¸˜ã/‚‹ÉÑpŒ‘û)Fl’<Ã™ÍÀæÌ˜Å‡ÁÀh>ñyÑUçBôvÚ7ñØ˜¸„Bô³Ä‡ÿı)ÛGÿË0ü•7²vBú‰®	cĞıĞ,/ŸÈxXK„‹ñ5¯‘g¥dlÅgäñ™K˜Î`åÕ±rBÏUI¾U,f2ĞÆÃ0®Ï§û#ÇóØ1´OÀVå¹ëâ×Ãx3±îÌã‡O¿€qlx)àzİĞ ÄÃ0/;Û;Læ]—xè9Vş>*×È1ÄıÃ­€ŸÊ?1Á0Œ#C ÓáÃöt²z¤·\ ûaŸ´Œ¿Ãõae@œ1ãÇÄ…Ã÷ ö9~”Éïşá¼ÿ‘M¥ı×xÃö#üõÁ_±ıÕ—Ÿ¬•œ~Tçõ¹ÀÏ_â5d^ûÛYPŸv°5§s­5ìë%æNøÏÚ÷¾ÿŒÆ6#ÏPCsáaÏWCÏ^õì\Y/#ş ôl5¿É™Ş›¦Ógâóˆ=¬ÜĞ³ÚPY$_˜ıC¾+™Ã5Á÷…Ñµ¯Ø;ø›Ô÷™°}9ñU$ÎJg÷ƒØ
+gõ Ïl²|¡g°¡µòîQèùlhÜ
+•½¡œÉz6zNZG
+éc­‹RæuL·¡rBº¿Gè™	[!×‰Ï‚®SçĞƒp}œf¬d2Lbú ó[ğ³¢LeûiLzáGÚBÁ?<Âèšüßè9Læa…¸f3“'4§Å,=4Wmev&¾£aaÇáï¨…ÖŒÏ\D®ğõtR.YÓØÆtJ®'Ï£§‡#Ï¼É±„é„ğã£eà'QŒ”Mæ˜
+ã;
+1NËem’ËÚ<—ÕÉËÖu‰õ°¼ˆÕ¥„É@âÇÈarÂ¼8øµ@ãçĞzbH?Ò/5tõÄYÚFÚ~¶6…Ù3LœÎÎ“gO$–„8P½Š1™Ÿ0}OOÁzáØÛ÷£‹|ğóx>Ûı]ğ'°=~¡\ÁƒÁ—Ñ÷}Ö Õh—¸%øo?‹Q#Z‹Ü¨9oF+á›‰òa»
+mƒm­DÏ bäŞ Z…¼ù¨®])ærH~’¾Ò·A
+‚Ü‰xz½u~}‡¦@	ÛPš€n‚íM°_Œ
+aû1pğ6´ÎÕ VÁÕ·Ãñíp†ğMF®„îDu(Çë±¥À7J}=Ç…äĞ¦ËÑT5»U Gáx“X×:¸S4¤×"¥(aP23M´ÀùA¬Cƒh&š/¾5ÛƒßB+oD{àX‚Æ£©PÂz4­îîf×éáz´F ğIòEïãõh?‚yÉÇ„Œ8—âV€W`®Çsql[q4l‹ ½OÄ¸OÅZô6bnëä¢¬ñ1ô}^|-Á¿	x&$4 ?H¨…=r¢8”rPõ¯Eõ ‰6´ -EW£ıè1t ÆY\/w€{"¶2v|l}lSlKlGì´Ø}±ûzçRç
+çõßqÁ xgZ^Ø-¯J,¯4±])–×Nyµ¬¼Éç”·ş;åáà7Á÷¹±.îªàÓ¡/Ü¾ÁY¨ŸÆÏï‘ïÇÓÇ~ßkø‹æ/„$‡ÃŞ®–ûo>báx:7‡›Ï-àr—óÅÜvnw3w·Iñ?Å|ÿûÆ6sìınîîA¯„äš/xîçFîvfen€%Hyÿ\Ì2èG0²}ÓˆMŸÿÙ„®G›Ñ`¯7BÏÚ
+ıŠ|nF· àUˆWºí{¿İıí.ôÿı‰ù £?¢Ôçÿo¿ú_ïWÈ_Ó5ã²éÓ¦vv´·µ¶4756ÔOš8a|]mMuUeE¹¿l\iIqQaA~^nFzZjb‚'Şç°Dô:J©Ë¤ç0J­v×t;{º{…w]]9v÷@BOXBw¯’jÎÍÓëì³9ÏÍé‡œsÇäôÓœş‘œXï,A%i©Îj·³÷t•Û9ˆ§6wÀş*w§³÷Œ¸_/î	â\.¸ÂYm™_åìÅİÎêŞš«æo­î®‚òúTÊJwåeZ*êSª`W{½‰î¥}8qw¸Äê¢>É5ä¶½¼§ºgvoSsGu•ÍåêÓP¥XV¯´²W&–å\@dFÛœ}©'¶nÔ£™İ)êÙîÙ=Ó;zù¸h+_½uë–^CJo’»ª7éš¿Z ÊszSİUÕ½)n(lbËÈp¯Ä£w;·~ƒ@x÷™OÏMéa)RşDvIGÔçCûd	¡~.‘eÛ Í„ƒŞÍôØ‰fÚú‘?#¥³—ë&gN„ÎDµ“3BgF.ïv»HSUw³WÍ·ôn˜éLKí‹ÿ<ğÎ;{ù„î™³æî™³Õ]UEõÖÖÑë¯‚«ku_fäïé†J, jhîèÍp/ítWĞà$m° µC¼„]ÖYÙ‹ºg±«z3ª«ˆ\Îê­İUT@R–»¹ã0òßíËqÚøÀ©t9zM•Ğ(	Õ[;fÏíutÛfƒ}ÎuvØ\½şNP_§»cN'i%·¾7é]¸K¼£xÔmLîPfRs™Gîìàl|'i-HpÖÀÆ]Q'ôĞ\â!iÑŠg¶¡P6¸ËAöÎ)xOe9Å“K+ël®Nı|H6&“ÄÓ++K	#2Ñû\T4š›”ä¬S&à9…J˜€¬´ËÉ]°ÃrÒœu¡S¼z.¤qPŒ˜DZÑâìEMÎ÷w§lÈßÔAêFt-¶ïÄV÷Äæ©bk3+i;çˆ/9Çöz¹J0Àš[¨MÅãZñxä°nÌéñ¡ÓÎ­r÷ÄÖ­¤d7+9¡û@¥	ã{¶s _Ö€ks×ô¸aè¨ÙÚ3Ü0skŸß¿uiu÷ü"R†{üì­îÖ›(ZKÇ:Û5äVF4Ol«HKÇSÑçÆ76÷ùñ­S;CĞá¼±­£ŸÃ\ewEg_<œë8ìÇ.¦r$•$’'9 %µÀ\Ìo;ìGhƒxVÄãYƒ‰iòPF³9š¦¥q&Ğ4¿˜F>ĞB–ù _ğµÕÎÙ¤mÖvÎßÚİIz2A;Â?Ü‹İãP/ç×‡9©ºWéSÑ«rWô2’^FÓ¥$]VM”CÒÖn78)°¦dÃÔyR¤s0lëp¶étMLíèU¤€ã—x&@¾Z‚nH®íİ0«‡ÈÚ;Èµ2ÏøY`³¡!Ëø^” `%@ñb‹pÑ,hh@ñúpĞ»¡³·3…Ü´cA§hËú^Tç.‚f§eJÈ2:·İÙbÇ„~ ôl!¤ ÙPkM±Á!Ü¬“*I¦Ég¹áÔ¬n'h[@³ZÁÎ©#UÚhÊğ‡BÂJ;‰HµxJ£ìU¤Cğì«ÒI”xdTxñhË ÷Ö÷ª@¢„0U²@;pj<‘şmQIÖ§H1Íƒ¨Å}5¸"´X’N÷j<ã{ÀóÓëUâ.],'BÅÊ8ISe¤æjĞ;ïi>ì^í
+û¤¥ºÉÈ@Ùƒa£Î­cz§¥¤¥ÊÇ¦jÄä­[åš_@õ%×Œ0$r÷öëKƒÜ=ıºGùlî>”Æí‡yè;ÜıĞNˆÛ{Å­¶ ;^:r¼®À(ƒl¹}pı^ÔÎİ|'ğh6·ÊC°uü€nÀÀ~À	À» ˜]p› ïõ÷eØbØ^g®ƒòo-‘b#l»É–Û 9×CN?l—`.ÛL@7€çÖõÏ.oä®í/:Ê'sk ûZQˆµi-dZAüRØî¼,eÀ¶À¡—`÷ÎÉÏ­†R®R2a»À‰Û^À 5Âö%1ıîjuƒ¸í·ˆl¹« „U¢« -¶' œx¬ìçVùWñWârÇ>ÃqWîX6¿}^ÚÜö9i³Ûg¥ÍlïÉînwtgts]Ù3Úo™Š›¦âÏ§bıÔÌ©İSùÉiíí'Úñ†ö—Û¹¶´Öö—Zqo+¾¥ë[—¶rÀİ„[ÒšÛ›ÒÛ»±£W¥U¶W¤•·û¹+úºšÃÜ"îòşl_~ Oå–ƒ¬~nÙ¬üH]Öãªä&ö;İ`6(§T×ïH ª¥TC©ºßTE©’R¥rJ~Je”ÆQ*¥TB©˜R¥BJ”ò)åQÊ¥”CÉG)›R¥LJ”Òûc³€Ò(¥RJ¡”L)‰R"%/¥JJñ”Ü”â(¹(9)9(Ù)ÅRŠéÉ²QŠ¦d¥d¡d¦d¢E)’R%#%%=%%-%%5%%%%%9%%)%	%O‰£„)!‘pR€Ò0¥!JßQ:Kéß”¾¥ô/Jÿ¤ô¥¯)}EéKJÿ ô¥Ï)}Fé¥O)}Béï”>¦ô¥)ıÒ”şJéı~[1Ğ_(½Gé]JïPz›Ò[”şLéO”şHéMJ ô¥×)ıÒk”^¥ô;J¯Pz™ÒK”^¤tšÒo)½@éyJ¿¡ô¥S”¥ô¥“”¦ôkJOQ:AéIJÇ)ıŠÒ1JG)¡t˜Ò ¥'(¢tÒ ¥”ú)õQê¥ôËşèJ Ç)=FéQJ¿ ô¥ŸSú¥‡)=Dé§”¤ô ¥û)İGi?¥{)İCénJû(í¥t¥;)İAévJ{(í¦t¥[)ı¤ßZ´‹ÒNJ·Pº™ÒJÛ)m£´•ÒM”n¤´…Ò”6SºÒ¦~k!Ğuôhc¿…ĞJë)]Ki¥µ”ÖPº†ÒjJWSZÕot¥•”VPZNéJJË(-¥´„Ò”SZDérJ)- 4ŸÒ<Js)Í¡4›Ò,J3)õô›¦uSê¢4ƒÒe”¦SšFi*¥NJ”¦PšL©R[Ô, VJ-”š)5õGÂp†)5Pªïğ Mê7¦ M¤4ÒxJu”j)ÕPª¦TE©²ß ^WP*§äc0\Fi¥RJ%”Š)Q*¤T@)ŸR¥\J9”|”²)eQÊ¤”A)R¥TJ)”’)%QJ¤ä¥”@ÉC)’›R%%'%%;¥XJ1”l”¢)Y)Y(™)™(EQŠ¤AÉHÉ@IOIGIKICIMIEIIÂŞA¬ $§$£$¥$¡$Pâ)q”0%ä Ã€!Àw€³€¾üğOÀ7€¯_¾üğàsÀg€3€OŸ şøğàCÀß  ş
+xğÀ{€wï Ş¼ø3àO€?ŞüğàuÀï¯^üğ
+àem£ã%À‹€Ó€ß^ <øà9À)À³€g 'O~x
+àÿ„¶Üñ$à8ı
+pppp0xpp0 8 èôi¦;z¿<xğ(à€G ?üğ0à!ÀO Ü¸°p/àÀİ€}ê…½€» wî ÜØØ¸p+à'€]€€[T›U«; ÛUó(ëb±·Äò½1'b¸Áà	ÿÔ˜´ÌGLF§‹qÄÜsoÌ/c$ëmøÛç6Îo³9jü6£	6JM?:+6ŞdØØ\°1ša£ÔÖ4Z»¬\“¥ÛÂ!K¯å„…ï¶,µâYŠ*j2Í˜Ü)ÂåôšN˜8dÔ—7%¤0Ú!ş†ó£9ºÆ©ÏÔûõ<ÒïÔsZrVŸ+-Ó'¥Õèt×¨ëÒ-Ñu‚Nw¯î—º'aÇ¯Ë+ªÑiZ®œlŸÔ¾¤}G+)Ó6j»´ü-Ú{µÿ+,şù „ñNÔ–2qPl™Ø+ošÖ‹oìõ´’­¿yj¯ôF˜ZOÖÑ‡ñÍ}˜«lë5%!ñxó(¶bbolkG?¿lEçÄŞdßï÷ƒdA–Îå+VÎX2(…lÉ/OY‘	ËSØvW¤¬X¾¥üÿáƒSşÏı@ÒV]¾œ`| ¥Å½”‘æ&¶°œ|D^A,ƒf‚˜‡x5»6%Å‚’-âóÓÇ<º]‹v¡Ÿ£'Ñ{8àxÚ‚nCGÑ¯Ñ³èMô>
+âH\‡»Å¿ìõ_}$6dB(ø÷ÀÂÀæ`’äËÀéRsP*yCòÿ-='ÙŒ"ËƒC7ƒIÂKéA$L
+~Á"C¨a2‘4ÉBÉfI¿äU~R ŠÜAvÏ Ö´ -AuhSØ3ØèjtZÇë •<ƒİ->}İ‹@¢›Ñ]hÚ¼íƒ-y&»®»=„~º|=ŠC£ChP|Âyı
+=úÜéC_ {aŸä}DLù%êEıè €+ó‡ö8×<N¢gĞ)ôô<zıF/¢— Ìcâ¹g …Nsf@¼çá‘»†ÊùõHIÏ)ëeô
+zı½Ş@€öş#úú3z½ŞAï¢÷ ı?@C¡¿£ÏĞèè+ôµxÅkp½â=1Ç§¬¤×XYcKzû2Rp.À‡óÁÚ
+qöãùxŞ‚oDëA×ä­“ÛĞİèĞùm İûa»ö
+úzôEµöĞ×ƒ µşúà8¤Åƒ R÷£PgZûÃ¢¾ˆNÆˆˆhıOŠZÕÇó#{¯ ß‰š9W?´N!­êì-¨á_Ñ' ‡3 ©×Åœïˆúû´÷)jô¯¢Æ>DƒVCWİ~	Ú}[¼ê/,¹6<×çb¾¯Ñ?Ñ¿ĞY4„0qXÀ,‡káÎ}#ıır|y†Q ú0ÉÇ‹9¥XXÉî÷}ùC¹µX‡õØ ¶+±kÄ}Æ6ìÂìÅM¸gá<hÑñxÎ€6Î‡ı"<Nlá
+\‰«p-œiÀÍ¸/ƒ6_ŠWà•xóEûåó“¸™ø·Ü·ÃÙˆƒş+_ÊM¯ğšß›İÄHó¤*¤”ü©$•H/±q/ÿ‰_•ş©¤f!*øõ¥8ğ6F(÷³Àr°WÁC%DZ5ÀÆ
+gy$CN”ƒ¦C.ü$JA<u@¯—GËã)ˆC‘x"ƒ±Ão¸è>›T›™™ ß«ÑÒ}|y‚°W¢²áËÎ
+õgŒ…/êß>ƒ3Ş:óöığ³†ÂŒ3¯ÉÊÄ—AD¤–sËÜ¼/;/7's»s}Ùv'©qé\nÎ8Ö¡\¾px27Õ;~A¹t«zÍøŠØ²ÊÂü+º û[ƒİk2%Ú{¢ÉäµƒC=ûÄöİBÁğİçÜ¯ò§W&lÆ\Eº£ Ér{VÓüáM	±z}ld1b¼äÍ¬öFä@Éh‰iÚ;ú¢“â¯@;8xP‰$¤ä¤~“)£’°…OJBÖ?âòä·ı¨YÊ¢ëÏ”‘:wÍ¸ìL!Îxta,„ŠŸÌÊ´ù#/åª¬ÌNŸÁ•mŠÈì|T¤à5cğeãx@nNmÄ½ó9³.+«³Òøzø÷–ÜÖâİ»KZsÍ'‹;Kë7İ)±í»'ë²†ƒ<câÜ²ç~Ãò”$›Åú*†í¹uIíİ-Ğ¢“¡îYPw52£JZóc`–¤ÆşÆ¯”F¼/+|ß/ÓV´ùçùÅFuA%ìœ$$z5ñŞoàM{ŞÛ31ğm\ósÖ-:xŒ»çoÙ%±MÜ÷Å¡…-/ÚøòÓ 4Ê “
+­¢=!“!Ú@1ˆÿíW#É»Hš”Ë‘@&u¸\Aè|}âŒá“ú·NÂWu©—ÑVˆr1òÃràB8°‘—G_ì~9$å1RÚ©”9N.ÅPö¿Iñ;‚ EPş€_V.*ˆÜn@…:)Štğâ¹ˆ&Åû»a‹ûñgãY^&ö<?ü1ˆA½?”’,äE›˜ÅFrƒøw½Çxcrè¼›_iÆïz½R³8®pòK«ÂjML•´ëI`è¨ Úáu)‘6×eJiÇ5æåù²Mæ¨„wœ–‹Š´sÄ|ó\!~eêÉå7¾yGsûgî˜ú‹ö	¦MßÑ••Ğ~C·9ÎnÓqI/×&'¶=ôÏûÀÜè¯Üiş«]4ÿá•ãx©\‚É_/M›-ûë´æ~—Z&Sé9Î ‚¯J‰ ÕFD+å‚ÔÉ;aô²_¯å¥2N¢’H”zµª\)*ÜçƒZÍ…¾²2ƒZ3|>ËÉì“Ù†ÂÂŒƒ~‰	)ty ÏËx7ïåyw„+Âœ˜û)Êvİµ)_fzÅMËóóWc[9÷>ö>¨Ä¿z.ğÎ°Ybìxå¼şìĞK=ĞÖåĞÖ:ğPõ´ÎOB/%ºÕ[9´–¹_Sa#ë&~IÕØ®zø"çÅşÊA³9‘Al5'Â9¬ÑL¤Í„òÖ]O/	C„É Z{síìrûºµsüvîÖş@à¡&<×öcî¡¦À#G?úkñ•/·ĞV3ƒóC y!ÚEå>àõÆ £\,Š@Yœ¬_“pG#oğÄ€ÖXçMÄšƒYW…ü(vCßÒâˆ‰‡_?Sf,,~=jöìÑÃBí¢„ÿ „¯ŠKğæÚyŸè[Ó¥¡QÇ•Î3ã•òC7Ÿ\1ïÄŒôÙsfgÔÌ“?uùªåSó®>¶ÙÛŞZïtNjnñ”O-ŠÎŸ¶|õòiùxÛå÷ÌË¶Ä|¥‰R[’‹Ü™åÙ‰éE“WµÕoW*Séäï©#uò(O+©8#)£dòJâQÁ®¡İa®`=Z†ñw~ Eø¿ø%å\ÈKdSÍxVì­OŒ='ºp¹®(®o(pÿœĞğ]¿Ğpú4y‡t1´É›‚Å£,t+k•èh•{S0`OÊ gö;T¶`t´Yÿ[ô	œœOH°Ç7›¿¶7¥û¥-!*£N:æC^Ë>y†y\ûRé1^-?øÄØ N*Ë%^ÅÎEøÍËçåRgMÛ¬â†«š’J×½v³)«¡pê/[Æ?9oÙı²¿Ş=nrµ©ÚwEÅæ¸ÂdszËŠšºk:²K½e©–$ÏÓ±	)“7N€Ÿ²$ç;Æ•O¨&úÙüLˆ%ó6ĞP+k	UìQNEbÎÜ)·â,¿B×¤huù%¡š÷ğ#ë…³„Ù¸­”„ÕÑ`¢İ.¶qÇ‰eKœòµ2ÿÖyS·we‘%­<yÜ²²ØöÔ¢®ÊxN»ı·[Ê]1’©çj'×mşÕ†¶«&¹gOT©´™ëÁš6?ãŸäÈVÓ:ô»Ö£œ¼Hı‡t¬ç‘d}XÓ„â|ÈhÇ9ı~¾e¤«¿N‡Ñ3¯Ñ1áÇ]5õ„†Ò«Îø§êîj[}â†ÚúíÏ¬µ%oÜ®òªE¼Éõ‹*œµµÕvolLÅu'®½æÙí“¢ôgqé-+kÆ¯hNQLh§I`ÇoA;™`œEëx™Àˆ#°ÓLŒX£JÄQ¦æ¨V÷¾)†ˆnv`wXÿºh°b|ğıYÇÚ%TÚ‹UÉË7ĞšñJ©³ª¡34YãöËêí_/1§U$[
+M—R<£2~×Ÿf­Û||åöÓ[Ê•r¼ãìüuÛ*h¼)øm<¨Û\ğøú¨%¡y¬ªÕfDğº’ ¿Ñì:-É	_Å4ijEĞomjœÉ~‹9I¿á2‹v)•¹X…¢Â«jçdyÔ@ÄóÃ³“&.ğOøù4ïôî™é+7TU­í[¼è¡¥EßbgşøäéW©¸	Ö&wåÜêxsô¯UF­¬bãñuk_ØÕXyõCş’Î¢˜5KÙ»ì‚Mr²¡˜Õ+4ƒœÆoÔÁ(®ÓÅÚŠ³ºµÚ¢…±ƒŸö[Ú´ÍÔÏì½ĞÇœáÉ×^„Îw’Ô—v©53Ê(nåºBí‹[êê²”	y|K`Ù?oboÙòûgW¬ò}÷pHaÎ®Ïğøp÷³ãw-Ú;+İ ¬#ó‰Ié‚GP£RÔ„ºÑßXëeª|ƒø|©U{?“«füº_áKô¥À×]3Õ qœÁŸêîi{NnŒújÂ¤	ªL/Hœ “;äœ—OO(è)}©¤qúóMåÏûí“Gl”Ô	âÑ“BüağéÏdëÏˆ~†F20'ƒïë¯C{%%ÿİ…¨Ñ$N[ˆ_“JI7›Éft2—ŸFD¿ÙÒ0ƒ¸x/t®ˆĞ!íL›cÌÅ—ïš;Õl°è)¶4ošáóo<±~Mß²<c|'ËgŒMˆòd•.Úİ‘Ö‡»‡]«Uw•D[ÓJ=oÄz¢dI]íi•©&ºåkÜõ‰í×u¤EiIÑz§Uœ§ªg\íµ—åykzŠÜ%ù9Ñ1ÙqÅyÙÏ‚ÆöÍÓ2ªş!_qAtrİæ±j8!2ŞÏÛš»ìÙñí]v_øÚmĞìÄ™Qgh¼ÒñÜÑ!$77«å<8•C~rÑi¨_6:d|O.â}9âá&ÃÆ8…ÜÇkaPøúkµÃ?arNÃŠ/·çáÙ“‡×I6ô'Fù.ÛÔ<<zÛ.ñKÉã0ªÅ¢õ¡™’+^h£3ÆÆDÅZ­±Q1‚İa‰=kkÖâ‰~Nâp^yÖoj¤fğ6ñîeb§3ƒ-dÀœA3^Úe##à¨{ÁĞëÈt'×Å½gI)Š‹+N±XRŠãâŠR,/ïqVìºWH´®¢«5¥Èå*JµZS‹ªãCÏ?N¢'Z¿Íñ5ÒÚpœô	uÓI
+¥JPœ•5£³~®5dÍÔmœ>É|¤òYˆ´#ÒáWGeNÿ®nQ1ø±èïÉhk}«‰¼¸éRÅÃ4,	ÿÌoE*UJjr³t(¡É0ä·7Y]&s£©YE›zëa¢LÄ&²_;#Î:"/á"j,ˆp‡íùÌÄTLt±S‡ 6G:J^Ô–Èh¿÷Õƒ‚)5»0¾½SjÉğÇ/YÈ$&D´Í^<ºÇ{[š?ÉØÙH¶{ïö†lF(š6Ææ£8Õ ’›šy1Jòë›TrE#5g#X4z¢[[ÿ÷e;×êÍcŒşU©£²ajA˜Ñóß’ÁÕÂLl¾FQ;ÈAJØ¼)
+E¢Ø*‘g÷ëšÄ‡å£AZØ¼éÂç/`Á²sçMöªGV-ë_[Q½ñÈÊ+û×–V­ğO-²mXR:µ †®>usCÅ¦g6­~v{}åõOßpÏ½ÙSVTÜ{_Ö”«Ä4°\ˆuëşı¹“¨WIBĞƒf%Ä6$Lñ«ŒMªFe»;<È½4s,Ä„ü`æğ¨tTÕK&9Bª¿xdª”–K6‹­q¡Øt zŒêgFK˜íhG9iNİ”ròF„æyÉ –ù•~c“Ù¬¹™id¹×[ÎŒZÑa$¿”H-óÆth:ŞÊé\™¼åÕgßRXËêgÔ¯jöòÜâÂ¦Kç\bW·yÇ¥Yrçß=xš}w¾Òg¡½¬mâ¬0¥‡éy"Ó/·º1ç×£8}gäã<_&ê$ö&ù\„Á~…ÖP§Pÿ+Ôd2J'¥4Ø>)×b¥\ÿq1á³[Òxâ
+«7?'§Ã´ç_©__ÛÒ¦G[»»"óg7O\6ÁS°ä¡%İ·N¹sâÄiÆÜ®†«Ç;qÊ”5õî¨È?{İ¥Yæ·Ç•[×åwEkf¤úTŒ9/Óç1Yë¦¿Hô$)EÖ¬
+‘xd³Z¡„o´Ma<«UëQĞj
+†O!|§©w†ñErø¤ş51¬Ó}_ö°ù‰âùâ›'¾RqCÉì]]iÏ±á,ŞXÙ4£äÊ¥Î˜<yótüÅq,”ÄMéŒÔ6¾	dÿÿmØˆ®V’î'C&à„êµ-P“fEã9ÎíõÜıß—Kœ¢Sá`@w‡¦¼n\Y©èİœõÓòV6xùo‡¶¶Ï™Ìm’‹³ßŒMÍÜ# ¥úQH)GW²•°™œçœI$
+¥F+át‚„¬U)%X.ã¹F„I§ğ•ùÈ:U˜JhÅ+Úr:û4éKO\ÒeÄ5»0]Ïâ|XŒõ¯–û=–‚´'ôsuHü‰0<g@½L>«D©”bIá+3å2š‡ÀO£îïç3•G‚@ºàÈ€WjµÔhË%IE	|L†q…­À÷½v}ÿi©bíx¯Œwñ>REºáOş±ÈåšøbçGãIs,Îˆ(}W,]x
+jıë»wàÜÀé]÷‘˜
+“ß§uPwz†Õ=A*Q*8w‹Bóî¹\!/T2wb¬Ö(eÑ°+~áFX9;± ”	*…\*iT©8Ä3y3DÍb[t±V$mhı=l˜"ô)[N0ÑÆ¡ÿ¢|ºéÂĞâ°å­}Ó¡uÛqÒ_ßÃÆÀıxx„CøÛ@?n(‡l†Ç¿
+3<ŠC“ü
+™Lâ†y–S8ŠßGpoïûMœB=¬S8ÏJ•:—èÚ$Í¨‰ÑM†‘ÌÑôÃÏ‚W3H2ˆ‹K.˜¨wçúÎ[±‹ryøW¿¼ğÅİwW^{ğJWmMEŒÕ_]ë(œQ™Ày†Ò¸W‡Ç/¿bßìt‰R#{F¡UJÍ9-EKæ…ËLf¥u~…^¯U©°BCdÖBÃ¾ïÄF­8¿´¨ÕZÉ°8±%>ùBòRå‹r‡³LV›nºjñ¡CDäk»¼ùæ¡4áŸså’ã£²ŒM¡8ìJR0f®6<Â…îZv^t{á –/‰Ÿ¡Ã
+±­&ô©tdi‰Œ4"ÛdŒ³¨Ïj•&“İCö+‘dØŞ©?k„jŸÉ.›PcıÛÏÂ?8:I&5x¤Q¢ØİÃ'Ø‚'ª`\YLz}ß˜‡Ó†^ÄºÀ+8Cœfoô	2BJ§ÙÓñãøïl¢­%òBlWòzQç!¯×iOŠuM(#•29|“"ˆ¨æHó°^i?ëŒÑ»är^ß††½ñßÁÈQF×‚3
+™‘*°áæ·0Ş¼(*MOrÃe
+_.`ƒË²´¹?},ğ5VOØğØìæ]¾ÔméS*“ğ` n\yB{’ Ò÷>ˆ/§ÒGiŸÑZY¥Ñ Ó«[ãÍ§âìÌ‹j#;WÚ)WA…FÈ .n2©ŠÒYqĞŠ­*)/ÿNÙˆ†#ô#5!sú·/[v†.„Ÿ$ñk˜ô¶¬36lå?M[˜s¬/pŠóé=ÅÉ jà+™€Ñi–È |ßxèÉáéåI:­0~Ì$ŒX(?XeÊèåöGDH¥‘Q“5$ç¥<_ª±2€ÆVÃ?5æC‡a&[ÚÜ)äÎz_ttNnü°ÛyÖkKñšÅ©Nâ·8ê$Ş¦Èa_æwf&ÊÛ)â‚F¨ùCš;o~Êd_Š†Ù—{u¬Ê°M¬€ŞS”ìmOë8ÚÇ*rŞöìïÅªÍ£õzJ¥ë{ p«$èU¬%Äš”Ó§3“Ú™R©Ó¥Ö©ÏÊÌ|DvÄ„taXUF•{aÁùÏ.&¦pq¡06‹šßŒ¢PbŸ’äÔ~]T”É¬:«”9¬oÁ­ˆxï gˆğÆ,,bó7±ùM¾ñ;rM•MÉWŞ??S²y("wrY\¬ñ¸"B§ğ/½£#¤É]ÔÀwDmÿ{à¾i †µ! 6ğ•‘Ğ*VÔö„R)·ê5rì	­¾Ñ6˜¾”ˆxÁd%Ëãà®aR¢25é¿36j•gÕÔg’Uò3kõ0+	ùğBÏ2_M}ŒLô˜æºÌô‘ª™>5¾pfû¤x¬.<‚o•M|r‹»ŞÃ{ÕºX_MR øøqnÍ“{Z;¥rs?Ü< Î³ŠûtJâMÌjµÅª$òé^0šâbòZ–46iÕâ .LF²Gœ83Ñf>à¨ª.·õ€,gß”‚öò²"¯TGéäDq6b(µ
+bÇ-à­‰ÆÒĞ¤´´˜HQWŒZ*MÏĞØˆšbÔdôÈ"yŞÒ¤<k ÃNKõeŒÀÔBëMfß¡Æ5çŸóüY6ÒÖ5Ğ¾ÇúüÕ‘±RuJÄæŸº%Ty!kû38î8ÇuNˆ2ßdú}%äğúàÇÜ‡'zlwŸÄJ~§sG’Ø[@Ãõ}ˆÃ˜…dí"Ì¯DŒ9æ|	™11™		åY11Yå	c.&«ÂJôTdÅ7Â¤Ó$%3zçbëK¼ä2Cn"ÌJnêS‚"ÉÂÆù‚piÉu¹v{n]rbMİSƒ—9rë’ksÜÚÄ¤º\iÁ!<À/äv ú9ÄM›<d8•‘ëŠâ®Ào¾¢!.Ÿ_Èë9Èß‚áĞûü­ü&ğäı"Ï1$ãlısœÍ¯ày…\‚¤¸ßi±œy›é†h“à7Ï¸°¯>	[şVüe@‹¿$kì¹`OY’,¨¥¥ ›ØÍ‚ÈO¼œñ‘„”©î£8Y'ùñ‘Îx|%¶Ot³¼Ÿø%sFßb€ŞG3t¹œ­»Cî{õÖ…$ä
+jˆ’œ„\ÌVR²j¶üzİ¢C×O¨½áäÚE‡6M:Ëá¿»—7t×&qz.`u®¨/è©Män½/ğËé“ô‰|àP¤ÛˆgÎê*¼ªÿZƒ[Øß3£hås4âEÅ¨ä N¢“$fÅŸ ;ŠÄŸH´—€UVûUYÓ>wÏÊÿÜ:G´OñQ‘şu²–"ÎÎ·ÉØJ‰ÎtôAçs$[­Ég~²Å’œÏÙk¶<½–Öïéu¤~AW1£¤à²*È3*=|’5¥0tÓQ˜bİ3¦ªGÖX^¿¢oõšşËûHœ^Ë¸c`—Ÿ HdÇŸøJëçºYîÏ%sX§;s¡|¬ä¤!~HĞóšà|¹0ZN<­Ä”¡™xŸFü±nN¥–|ÂËÉfÊ9òK?šM-(›Îs¨»õ½õ¬~ø´¸ÒqÉ××• t’x=ä­¥;p}àí&|ïiìx“¯ÛêOßzSŒÏÄÿ79C+n‡‘~ÀbqØ¹Œ=LÆìƒ8Õ¯ˆåd|„s¶N-Ş1b]by–¸_İ¿şì™ÓâÓB[ß¥\ 
+‡Çñ¡‡ø^öŸ¼à&sEmÄ¹S-é5iõ×olÿıÚî}KJ“›VN<Îyàäµ³ÚÒ<•Y±•5veuïœÑ°eÃ†Úƒï‘õçà§â›%èH¨FNü±_“•••À«À|ê‰Pz?OpšıA²:­™VŞÂ[­’ÔYĞ#¼~•Êá©Si?uk¶–FrƒCL›Ä§0şèÅÆÖÿ¶Ğ0wAWéè“0ñEHöÆ4¶ê)•Ùy~¨n÷_îŒ›8¡&¦ìîöÖ«<	«[wmn˜W=qÃÍi--mi‹XR°xfÙÜñ^|KÏŞÅE¼D&yM­‹ÉmÈJ©É²qäÔz›ZíÖÓºH­4½ıš‰«nõ*³êg“şå…È¦Xb;Ö +˜%#Ù î÷«Õ)¯R)$‚\¢§¨ò#ˆîy,‰g³…V˜Kó„ù¯¬Äç3øè"ÿ_1òÆ
+v|Q»ø•ŸïÇÜôl 1°¯ÀÊÀ?±òŞ?ôì¼g¸?äñ„]l¨=ä¶ÄC„„â¿™Gâ¿ù-0|n1ŸõŞ×Íó~"	ù½süşğkgÀd/à2.âÁ'm}j%q“¶¦üÍ¸EÕ!â^X!zğªß¹grÕ-ïì»ñí{&W›’¸­ª<³çÖ¥—>ğxI1ìSâÁ[DI<x"ÊÆŸôÛKqàÎw”Ÿ+ƒJ^§ìR.Qòe†r½’W*­iŸ¹çå6êÕ/[ve¨bÿc~}l­/à.ß³&ƒ_/ €_O¶Ş=F?Ÿ¿gfzz×®Yó÷ÌJOïŞ5â×YİãÃıºR™hıL7ÏıYÈ±‹´/Å³_‚¨U?(™è9©°	zDaŸzÂ‡Ä§cêÓ?¦şy®èŸûÀ=—]ÀŸ?›•æ ÷ã¦ÀŸšğşß‚ƒæÙÿÌŸ†&¿	wÙHü3ÔßJEÏ|È¢‡¯=v«9 ~-\íÑ<xZÇlâhû"æ!‹N|²8ƒ wò\ÀÛJuq¶¾Úî"«)­:}ÒŠ¼õÍ§VÎØ»dÜ®=ëíœtàŸÓ[›SãÆeØò2ïjjÏ˜¶eÊª¿/a%v{0–Ù
+Ğdêc•	ÖŒk/¬#B.:ØÏ’©/ÄİV0yü
+íg’#k-—-u§¯1wJ„öœ÷"ŞX'6lˆ^pï¿-¼ÖSUS;cëä¤øúkÚ{d^ğÖò	wv/¸qAl^£Ï¿`Bâï»XQ.“¼ÄK$\\i[VÚ¤çgşø¤ú)óékÆä«'”vO,2rëçLŠ…5¢,½ß¿¼'z?­\-ìW2_6ÏG£‹•¤5²Ã|ŸçbN­8µ…'q9ñi§ş >í ÄÎƒÜ<şqÉœŒÛÑ )r«øU’›!eKù@L!ynf)ŸÂUË%wAÊ-,åäÙ/Ù);I
+Ôj0håç&ŒFNÇÄvŒDN‡t=îC’®ğÈÉsŞÎsûÿxÑ¼“'Ş0»¨hŞ-í“n˜Sô¡É›ç²ç%™£¼ù®Ø¼$Ëàü½ósR»ï\4pÏWNœî3šò¦×L˜–c4åO#½ëÃ`¿Šóƒ®3û”ŠA|ÜÁK±Œ—> ÃŒË»üa˜FŒö+<$IÈÜXFz•_5|ÓVaÛSoÂÛ[¸~ø^Rúbé ö‘^õå³™t©L¿^‡uwkUÇeÈØÃÅ>‰Bwg˜¡nO:SÂù‘Üpõñüj¯&++eFÊ¬²ı—U¯hÏp¶æ´à	oì$«<3!*ÆåtìÊ,)œR’Õ2¡Ö[
+}
+­°œ›„|húa‹¿ğkÒ³Léñ¦ôtS<¯€îô¿K¯ˆhtw¹9·s )Ë¼ÿIÓK&Îdâ“zäO(T|×h‡»Ó2yLtâ‰”²°â£
+(xùÛo™òòs¢ÚoğUyõúÔÆqUù5^mÆ¸qs
+<%Åã&¬lN©¬˜39zİõœ á3ª£‘F§Ys»Ö¥ı¹R+çcó&¤ÕO‰ÔN{;ºßÏŠ½¨Ä¯TËTR‰JP <ˆŸğë‰Bª>€Uà?9Y77ãœ.”ñÖğé“zø|Ğ…$î(w.íC˜÷ñûW¾X‰qÊÊÀà¯]³k×~üN 	»ï Ò‚_ğó.ÚĞ¤ÿ€ı¯âÍ´ÿˆ)ˆ).ÚÄ”Oáªå¼›ö1åäÙOæ°¤ÿ 7 åßÈë@d:Œ®ò æ%ˆƒYõI˜à¿:Wp^Œñîşá{ñçƒĞ1ü›áçîÁwà½Ä¿‚¹\’Ì(ï0RâëûÕê¨A|½ß`6[¬&8ĞÿBSf,›SáñÅªìgsŒğ…ŞâprØÒ†û«ƒ2Ga~¡sñ’S©™g|¢õ”$®Íî5Ë×n”ãí«•–dg ‰¬B•Q|´—ıÎÅá×(“vDG'[w`œ¼<Ïfè¾q>X˜™…¾°_¢HÙ/Q¢Îù%J.ùbız-)&Æ—`ºsçuL²½¾Ş‘lSÏ²§;õ••MB··©Ùš‘hW–„çÜyø¯ÉÔX]»µVwDRú D ØÒMéÈ/QƒÆ&÷k4ƒ¸ı	YÄ™,r‡tDBpQ°‰"¿0aîIü±	?9eÚY¿z«}Ãä”ûŒÉuy…İ³$—7\;5“Ûëm\3=§¹Ğ¨]wÀÓà6¸§
+úR©’‡0ŠüÊ¤İ¯Eòà; ê¡ÊVĞ‡^sÎöeFÊ zrE…¾x>øü'’Š/¿sécW²ûDÀ}(í Ç)"÷ ã‡²¥jGëÆ”*ÊùÈWXøâ<(-í]øMä×
+¾Lz<z^$ùùG{¿×3ˆ'ûµ*eë];¥æz=ƒXüˆü>bTpƒ°Ÿm\øİ\.+|KËÖLIÏ¼lËßÌÌ¤Y>_c®-*}¼OeÔjäïÒÀ¾¨¨”öu­­×OËÔk®7š]Em¹¾–"Çóü^²zX(Ú^‹_G~œa ‡ Rê9ƒÁHşB öf¿V	ŞU¥%¿¨P©’jtjê†$'Ãkybkğù ¼W&s{½2ŞÄœŸï‹àŞ×HâU;õuñ‹Î²'<B^²gî›oÎ½5p3·w`áì#ÃsˆåÉ@‹] Eòë
+fyz½´ø„<b§FcÛ)ÕwåÅ…Şd<÷å¾+£uIÙm·ÁÖëm÷TLòäÅ*'&äÅé%s¦mjOúåÃÓ®oKzüñåKcZs¯„m´e2H‘R¢JhDDş,JDD?2F¡ˆÉuiÍoêÎ—K¡İ)§"ùDC!k¡â?>ˆ¦B{‰¿mÈOk^RQ|EntaQa´'×¥sdû+Ê²ÎêË'™23S""RÒ3¢â2íZ»Ï_Yæ³oç5çDk´×ËuJ™:Â¦·8£#-±©¥)‰5¹A"ÖH•rA©·ê¢bÍQGyĞşµĞş2”Ğ/“!b¢J^xè^•…¬?›ÖA¬€ø”ÔÅm¸ë—(…K^¶Z+‚;É·HP,ÌŠ:£<g@ƒíö¸A<Ï£ˆˆPDè÷˜í;3Õ~u“š—¨£Ô5¯VGš¹5‰X8Âmÿv\Ñ_™†ÑËÈ{D!ıù|¤½¡n‘G~‚0öRöûîŸ1#·¸-Ïzã­×\“µ¬:s]Å¸ù“’é©çvg7Çp/æ»íÜZoÏ2}gLôí[tNs^ ë²’£ãìNb‘Üsü\i2À´5ŸØßÜF£E9ˆçTX¢ö¨uG¸5HÁ­°Æˆ¿AlxQzê*FÒq¦ø›j“#¯nñsÓÚWO*Şé„Kœ’wÕú_ø
+ãêã,^“«4=FˆlX39ÍdåË¾ÍKpî}pòôÄŒÀ7r•>uHÇ}ƒtä×%ı±åQ<Y${Å˜wktÇ@ 5¨“HëÜM$\Ã$d"B§!½”yòDÃ+*7Ÿv˜ü\ês0Ÿ‘¸%ÓüÈİ|Ë’âÎûciÙîx¯ÅœmËIŠæ‡×µ§I$ßİ1±=­eyıÌ6et’ó_rYDZ™EAÖ¹’IïyPUŸà›8¥Vó J¿Şáˆvzü
+mÇ#‹ûI4±µl·F?¢Qâ}Éo‹Ä>AÔ*•¹¨
+ó£Â%y%^T0?—ãõò–‰6y©%÷úÒÉ×¶&¥6¯¬«YÚô8WQ]X¡M™¦’Jpl²:CjëÕ“*Vuä$M\WQ\Y3ÿ/ñëüµ’‰(U¢FtİœÎ|Îì	"IJKíUƒ por²½\Cş¬Q||.1x»ËîòïœfÀe†FÇ¼JÙÎÚÚŒ´3;»~gT±¿`§uÛ(†öP/òôd8;ûí®ËÄ_©úDA|éØœI6Y)8çen“Ùz»[ìâ;ÜyaorûFßäNğÂ%â‹Üy4Öä“¢¼Õ3‹ÜµÑ2™3éĞ¼+=Í§MY5Ş•èŒ‰ô8£c’&Ì.±di†Úº´’8mnŞöh³+?+/›@ø­7§J«Ò«NN&LjNi(r[ÓÇ%$•G›}±	ù±±ş”ìæ"§ÂòãÎ(u”M­åeqøwYé¹É™‰Ù0=Å½È?~Ãfô™Œ¢{‘ƒ*(nàƒE» 2¿2Æd²Êõnk¹Œ9’[‹"D_ÏyÙ#›¾gTF†ÜÙâÛˆ˜="aÚ¹ÏÍLföô‘çõÚˆ´ØûŠ(K¬ñş]8º95œÖÒ’Ñ6{?oŠÊ«Ü€_HVÅfz7r+§¤äç${ógtÆ;ÿ7Øùb¨‹,=Qô0b™ÁBÈ{4¤Õ£÷PGA't¾Œ‘“Ñ1+|ÈZœÜ²ª~Ï=ÉÍ«vßûØÍ‰y.m]ub¾K+h'¬’ùàİãaûÀıƒv_eüôé°ış3ô¶˜Fº¿_£ˆ!AI¤y"*Ji³ìÑèöT =%·q Æq÷¢¾AŒI²³GXÔèCÆp–ÇÏÍruMt†å‘»%)]EEÅvâÄª“Í^sËd!²mmk'|ÉÏ«Hu¥4¯l '––«ÄYæGÜ³|‡TŠL¨ü€N=ø˜ù(år™^¶G©QªÕl¬0EìAüˆŒ,ÇÙÙ¢C&öÈ‘¼Â“/F}‘âÓÅŒ)É~òøã`Kà£«c›|ÜŸÕÊ+®Ä†íûİOoÿçby¯[¡åê%• ³ÜÃàCçà""Ô¿½©ÀÂÖ]u{8	£ğÈU†iß„»»CØ^$}{¯ß'IhôåN){dŠ·Âù÷â¸„¸Ø¢b¼;°åêd¾tğG°ÿípg)Ê<(•pùô¼~Çä/Ä!Nz”üUñÏŸ–AÍ©Ñh|á‹ˆğa÷İsßáÇ$•?>1¼ÔÇ šM‹’ÉÛÒsŸêÎ¸G«"Ş56úm²öQáØˆ“¾L“î[š}Ï#SÖÖç,ÌÌ›ä—3£5q–û{„á¾}®™œa0Üg‹6¥ÕdÌl´FÓ¹Õ‹ü
+i)ÌÆ”Ë¥b09×¯RëÔñ{ÌQƒÜU
+õ©üÁ$…ºÆÔkAÛDÁ)aÂ‰íAÛ™ˆúUĞÈûZf~E~côU˜?úä“Iõ‹*Êº$w©UŠ¶fá»·×–uûF"S dš'…fEy}jÅQ<—uŒ•rÉ­ş8·¸ºÆzÖÒçt	òtÔ‘Qx~Ş£iEîÎôG•Ìºöò«ÀW”T¤~Á—~Ñ:kŞ2vß9’dE9}œ…Ü×ŠÔxöÆjäÖ4kŒ{8Ù¸;À=‡Ÿõ•Ş5bä={7[ñûî“8òsóèDÿLoK0™³ÒµJl3©6µ½|ŞxwZ´RgO‰	ô“ºÿdxUü«3úx%™ë(0ßWqd*qµZ-•‰ì(ö¨æ®à
+	ÌR®= ’ËÁø×#?øWû‹À FıÄïú¡I*ïæá±ÏˆşÕ¦oÜtªùáô»nN‘Ø†à‚Às\} —N`òüçB”­•Æ¡˜3%ûUvÆàß!bĞHÃ(PÒ¦P÷CëŒÓ¡p0!ô‹Ô„ğWI¼aáà.ÎÙR4¹ÃU1§j\z^zWfÒü¼5WÜRSœ“à4çÅ	Qy±©µqiÑVOŠ9ê
+]ä”ÎÀï¤ÄÄØİ."_© æS¤o‰Ï4â¢Í;´†# š»nÀfß¡	ûE[	yÍtî¼¸/Š8M>%qÂÂ
+W^V†õfi\mşŒù·'¤ÄçÇìÑ$®ÚU.A®–qı÷OwÄİpm[7é]‰ŒôêVÂ(u h; 5ìĞ€oÜD„¨$tzûóúqH¼±aúu·&M\X;ÁĞàªœÔT×ìR›7”Î®MP)6#Ûªê"µb­|’ôÏâH’pÈf!y&F¨wŒc‡A;Ò(´UÂô‘¨ÒCo-F“Rî.¶%+sR-yâ¼Rc¼îæÀÏS“bóú$caµU›ê©ê.®_éø§‡ÍµéÉ”H:H+ø@7XI4D‰~µm©°AàAæÜa"šPÊv¨´#š Sêe§ÃbÅ<*&œ»t
+¡¢ûpË¸„i¹©—g¯ß_ÑURØYêÜnŒIˆH.•IJ5^S™_«½\£»~}ÙÜñ‰q%m±¶D›¦À­Rs¨)ÒÏ,ñ;l`©×èÔÛÆ#ÜõHCæPaMzOñ¼Nù)Ñ>5Õñ‡?ìºë.¢o¶]ºL¦TG{c{›ñš´üÆl‹BJV\|ÌNâQ.ªBm(Ó¯.,__‡ë5ÊÈŠ¸rÒmÏ×”)¶Ği_Æi˜°¿õvvöéeú·‰VLfÓ…‚IéŠ%G¨‘I$rwYG®3W£ÔÆ»nîZ¾çºù•Î”ÿ‡½/«ªÚşßg¼ƒwârËñ2ˆ8!Nˆ*"âÊ((Nd†ˆ¦¦ffJ¦†CN™³fjfN‘™’™9gN©™™áÀõ¿ö:$³—ï÷Şû½÷{ÙŸı=ë¬³÷Úk¯½öÚûœ{97ÀİÃÏ s÷‰J3k*l±Úø7÷vjğ²·ÖµY¨ÑßèĞ,ÔÍßÕAØ¦´Sµk¬·S¨´õõÏvŒMÒø{ø„C\½ÃŒÎáş:!Õæi4Û»Ü\Vcb¦y:ÜëùÕsõ€Qé£b ßu¹"r3íë}†P³Åô¥=x[[3Uÿ'“<UµõÙé-À#_{M4wëÓ‡×2±±A¶]ì§»˜½’{ÛV/¦ƒüf
+öz®Äm³Æu†šÜsšá¼†½Í3_´‘oUêÌî¡!¯¦¡ìš0?‹«#}Pë¶hÓp¾­ÉJq“wˆƒŞÓ¹¾‡Ş1ÄV™aš‘!Í|-xşi¸ÁÓoæU3ĞÖ&2¦}±ôbº©‘ÌÜƒñg³®G­.“ê¡ş`Ñæ_”ï8Óhv×u:¸Ùš´É¥öî¬BCd»`ÄjVß»UwÃv:§­çhÔ0tNv~pÈfµÍAJ}s!Xí‹0kÛRK°l¨Ùİlñö\d£ŸáÉcdzE©ìÄ™Z'­££v'K±Í^$yíG}j×½úµ\Ùé¼ƒŞÙÉèêî2{<ïlñmâÕX/7­£ZkÖÙ>dÙn³Ş‡Æ­ÄÎĞ&İ£k79Ït &0Î”Ÿ%µyÊC¤ºòÎ>S¢
+§5ˆNióÒä¹yîmÂa}uŒ­Òbü'Oní7yÊ[ô3ÖØn††ÍiåºÂÚa&ÎE£Tnº™NNööp;é¢‚JUóØ²Ôéò“{ïš'ZÒ2ëHLRs}cçY…¼Ol,#Mnîà=Æ-¥•Dà±G»5lH×¥‹§V’¾`ù®`y°B}bR×‡ùáhç¨R9Ò5M!,ªDuÈaĞ"¼v·#+ÁÎ`=İÍ¼ß˜ÄcÃûôã…ÎÍƒ†Ø>bÙOŸáÙ ?¬ò› ¨za:4bÙ›4‚Ù{¦§‰†j•ıÌÇÏÊÚÔ<*YçÙãòõ}ú¿G…4î:8¸}¦µYNpófv^-­‰°À'·mŞ×Ö¯qã¦vAaÑ\ø÷Ûø9Û©5ÎF½³S}{]t[ú9¸ZÌq´×»Ø;9ÂhxúY©G¶½ÄôYw”Já4CmgoO—Ù’-zÍLºi®Ñ–;iŒ¤%¥©tÛA½f¡ğîjÎN5ë/¾ğtoëÎ»©T‰ogL´,Ë¸ê`¯„ÖúCkD=ı·ÇmvNj57Ói'´ k= !ôÉ@}ú„¦æBş$¸Ëa®¶pkn5uòò2%Ä‹zÛ¦Ø&™Õ¶H'7]j“Hûãˆk“vs.n'ˆåaW+Í,3p‹Æ/>±hÚ´¼–ems™,Ø)Ş„z/B=gğ§®Ç98õ•;ñ× ¹>ş_ŞúĞÇ¼ø9Íèc^—PÎ¯,ÊÅ%²¬Ï´FjC«ì(“O1¯]Ş¼åRhàlÏ˜E»Ä1fªŸ3´ÊÃl4} ²ç!à«±ú¹lÃOáíâëëªo
+÷‡zöİ‚Qk¥4Y›;rÉkª•×.]ÊpmŠ#/¶EM¦¿Oùrmª&ÕL'fSÉö­“*Ø
+®±œöq¿ıw&şşš0@øLl)®T”)n+“1½£2ª²TåêHóíÙM³;eh¿Æ!ğLSNü­äÈş[SÇOêyı!õ¯÷Å“ÉI/§Ø:©´Nº.¥úÁrZğOK—œéŸŸ³õyú¯Oı1]péã²ÄågM­ P'íÓµÕÍÒ}¢¯§E N:¢ÿFNUûiÉĞÚeØêàšöÔ”í:ÆµÈušëœgN›§:é—ÿdli¼qƒñ”[pô2¤½R2›§çéyz§ÿªô±”ÜİSİ÷HÉ#ÓI“nrÊõÜêy›&³û¿=‘Óš0]¢ÉË_N£§çéyz§çéyzş×Ò‹Òe™jùÊÛÑ{±÷SŸ\Ÿ5>ß7hé…6¸åëåÛÚw¤ïâº	T$€±Ñw\ ŠHi†8á¥Y¢dx™æˆ•œ’iÉm™ˆ±—i‘™V±µr”$€¾	i13‘2mGğM”¶}¶È´7•9#Ó$KH§?o†!Â1™fˆRäeš%¼/Ó1ˆQ2Í±«LÄ^L”iø©2­ ­jå(‰VøV¦UÄI)Óv¤‘8Q¦í‰V\+ÓÌ~ñ™v$áJú†WÉö”hÉ-ÙS¢%{J´dO‰–ì)Ñ’=%Z²§DKö”hÉ-ÙS¢%{J´dO‰–ì¹š˜Ih@ÿÛLº“L’BòHÉ‡œN
+€×¨<’‹˜úËTÙ$®´%YÌÀÏ$CI\ËÇ³48¦Áq4`*”l5¨Ä,@Ëd"&A.@©©PróÈpúÿíĞ2½’Ü§ë4ÏGV5¥Sà8Î“ ¥LÔ è)5[Èıù½6íN%	¨u¾ÜC3i2¬¬Ñ¸¶F7Ğ!…ø#·!ÔHE;a›9ØƒH¹ĞnHc0Oê$ëßèqhë¡h—\0¸)ÀOG-¨/µ†Ÿå“q,†×Ê{šíòÑn¹ &¹VÓ~hW3Æ88Â±”FCµšÒ”—ƒ–§#N=#¢h¹\´Õ8äĞ1¡íä¢vRİYJš|.D. µO^£µ’QoÈÂ¥áxHzI5òÑòşÀI¯íCà3yV.§â¸`_–Ú¬mçÉd¢ÏŒA;¥ >İfcjg@6”Ê‚vRåYòGÛÓ:YHùCyê_t–$ËvyštI‡ÿ©mKOEICkgs\JíìZjZÿ£^-ëø í‰Ô—l¯&®PùR_S3{ƒ‘áoù^Òï¼*Ç%GF©W=
+çË(¬Iµ­Í9´dF“?÷Q)âeË#óXzÍÉ”­Lı‡ê›Œ––ÆöŸÇ€&Ø:çGæ´fÎº±«Í!Öàs÷Ì”¼œüœôsûœ¼Üœ¼¤‚Ìœì sÛ¬,s^æĞŒ‚|s^Z~ZŞè´Ô ö9Ùù9YIùæÌ|s’¹ /)5mDRŞpsNº¹ #­¤¡y9£r);%gDnRvfZ~PíÅæZ1ír²RÒòò¡As³ «µæBcz¡Û¨ÿ¤ü†æÔ4s§¼œœ‚Œ‚‚ÜMšŒ3&hD¬ ß¤`\nÎĞ¼¤ÜŒqMR
+Òs²òå¢”NOJÎËNË=Ö.TnnVfZª™2÷Ëe‘4Î<*?º]£lsA9%/-© -Ğœš™Ÿ›•4.Ğœ”jÎÍË„«)P$Ğ‰Ü´¼™ .yš!+3%-›Ê‚ùæœ¼"¶øGcåæå¤J)4S+Cİ@Z§¦Ìló˜ŒÌ”Œ:š¡’5*†¤Vûœì¬qfÿÌ†æ´É Ëãâ áoi‹ÅS3³‡Òa.ÈËL¡Ãÿ¸Z½VVK´€&´R6‚úJ^&´šš3&;+')õ÷ÖK’L•–G»ÃG‰Q¹£
+`Di7i™Œ´¬Üß[/{œ\œûdd&g‚ÎAÏâèMRÓÒ“Fe%åç%µ{VòÈìÅà“”PCr$ŠGèk´ƒ	Ëº¿GTĞ}¾µØıQ0%fÊoŒ‚-+v/VË0ÁvV•(4räX£@¬I¢º‘ÈğLq3–áËz[{YëpLK=ŠL¤¦¤MC‚Hš¬^u„ñšã¾9TkwŸ»ÿu²CO\nÛí^Vlèc-æ÷Y‹¹÷Ê8–aY—PPñóoãÄŞGôC…?·:ÔjË ×T“ëÃ‹.lŸŞÁ.ÖúôDé¢î›”ŸP“ìdu¤L…‹".-uDNvj°‡ÕD9jíSF°—Õ“^ç\¯ÇgHkÜ» iD®¹gû¶V½Cp¸µ¹µYp³¦M›ö‡Óˆ:§Ö‰›ÿ%š9Xíèu;¾{qÁ~ÖÒ©GvûÌ\êgzw4wìÛ¢iDX³ÆÑÍÂƒ‡E7³7°zK=2=µG½¥Ùj-f,u-Ì„+fêà«Ùb†!;Fôğ^û0.öÈ,Ïe&Çk³3.»sµ`Õ
+&òËC·”Y.áÓc	~Çg	·Ş¸ğk˜ĞÅl«ŞİuX£Ëæ•{«ÆVxÿõªäá»æ«¦FÕo7ü­ä±wz/ŠÉªwê›ıßR&špãì»b÷»lü`n¸%a¢×ş#aslëCÛ¯›êÚ±‡I7^»yOî™·;‘}gcŠ¿Œèuwá„o.•Nî6<¬÷›/uûÚr²[aØÎ…Z4hšùEråúCgÛŸÙ“óÑo[T]Ú]»ZôëxÅúWVh_:¿Š,!?õø`Ì—°ˆ}*÷I­ªNß©·Ãû³‹ÉÑœåÑlù(û^jåiM³°ó/öa9˜GËŠXD°ºƒIİy¯)ıta¿_öì9ylM@^õé—òî¶js	}Èİ›7XuEï°ªoã¢sÕ7¢Œ~°¹Ñ†}M7×³ÆÓ|wkWkç²Ne§´—cBJ^Ö1!wx&å6‘ãk~“Úa¤£ˆƒ^E¬‰¢&¦ (†ïfíb©9·²SZıiĞÁÒòş†ä«Õ·ooU×ˆä”OLHzIW³ßşØpÃ¡ò‚ím»ïıâ´½møô5}6®âûfqH\tø ÈÆT–ê]§ö_WuĞxYLVÆùØ‹K/ø}}èAË³n–¼İ#½¦_ŸÂDŸìÒ¤ú†s³¶¤yï†¿?wHWAu[ìÛ:¦hô¬·{´Ş¸{öæíÎm9Í%šÏûêöÅë¶ö¿½qÄK¿¾~áÀ®.;†|¤	:š£colpXôM÷–{xMÈk¹b½Ç;ÜcN¼²u}ƒ¹÷|˜5tÏ©îoXS?¼uíØœéï}wÍ®<ßüÕÈÄ»S³çßÜ¸*°të”î./î-šãÖìô¤†â˜Äe“æ\é¸Ùp´ÓáÏöE}WRúSÏÏ;W_±‹„±«uÂØş«Óª
+'ö¼úÃØşºV³ƒ06á_,ü­¾Ò¤÷¬{ö ½3‡fÓU–î›‚1š5³F‡X!…IÑìñ©µà_¢Ÿ|û“ë¦Nßî³OñÚ‚¢qÚ‡¾CæM¼gÙü©ó¢?XöùàiMZ„y¼>öşøÕÅÌÖÂÏ»¸CÑ?xë·¼ûíÉêG–ì%·‡¶>àgøÁßóW~nÛ”ëßïĞÎ¸á² é™ˆÜøœ–×ßï¨²vşd÷kÖ·ì?ıÙoùoêÆ|ùêÎ¹Ÿ*'›ox¬júóÈ½ç
+H×éÇN½şã‰±¶™÷ß2µõGz®Kÿñ’³×Xßè«øM+¿9ç’Ç£ë#‡ş²rtÁ9§^1Ç&å1İ–)šşĞÏ¡züÂòKı¿Ÿüë‰õ<g­¸X¢ÿäÄ¡wÜ™O«cVºÌ	ïRµ×g)Ù´»÷¡IÙLü)"»è—×]ì~¬‰FE`‘ñR¸i@ÃMíÊÜMÉÔÎT®N¸úüDrÉÑ!Í¯=ºwà±òï}°Ï¥ÔG/×ç!-ïdíøäJf¡§‚K£P«58¤QJ„5,¹iZRã°æÉaÃBB#G„†‡4NhœÒ4,=åw!0&;õ‡ÂWÅkôÍšY¶XuhûæŸ‡À§F¨œÜ|Œ‚à.àÇàÅàÀÔShlmÖØ!0©Nìc…İJØñ/¨‰‚£‰«=UÜ…añ¬•<1¹b–!¢Îó»¾{{–{÷XÚkì77ªª¿øèë=?ßsK¸Ñ»<³“ğõşÏ¯_xøÖ€7×ğß#tt9·`ÜÔ]éï}·óG¶÷­½Ç¶±®êgÒî[ÓM‡UoV,0u°®~W÷éN~möê;¯%6ÛkZo9äôÅÉb§ÕMo­³”¿æ³bâ«gıLÓİ§E=êËuÿ${RYÈ[67é™ğ‚¸Q;£Ü=åƒ|ûïOúÖ˜×qeÈ¤Èy‘};ñfÛèôéô”Ú^õĞ|Ø¼UË§ŸçŸóóşu×>ê¨?œ;qk¼±Ó¬ÒwGìÉö;XåçY~Ã¼ÚnãÏGìÌ½0lQæ¤%áßŒ0Û&ıhßöùá*[kÍ'¥šÕ{¦ş©ø“÷úø´7l™<vJÅ½c‹Ú¸~«™vyæ;>S3Z®ş´(Ö÷²Ò«[JõÂ7´İC·&éñM—#f=
+:½qğòöÃ?{tãÎá¯MÊz%oÍµw¼sÚx¢ùÃÔÏFD*?iãû»–íxñè¼„å…‰Ÿ;wJ>æõÓÃVûƒí~k™ún³œ!=Û|Ğav2»WwOH¼ûéĞW’¾[\º¿|Æç9Îï	š{cãİÖ×‡u^uuŞèò”ûm-]—ßLÜ”pÔõøÎ_çzÅt»hÓc›ÛÄüÍ_°´i‘h8;õæĞıW69ÕàÕÖƒ*®‡uxİ}×ëö£‹#Ú²ñsï§ÓìQn),
+X~’u’.#c¿éÉ-ì`§jÕßioÜLe\uxc°«Uÿ;¦ªÖYÁIqÓçqÜŒƒ»Js{pİÌôÌ¸Ó3·U‘“—Y0wk3k˜548¤i¨µ9÷`<µÒÓßú¯âû;K²6ı.fNÀøáA®ç?ºğı·zy÷|ÿÈiC¬O½›_®ü²ÛûVsı_Ç¿©í<×­İœu¥­¾•dø•?º>MQï7G¾ôÖ´ÃŸ‡ú¼²èö¡¦À‡/^ê~írì²%Ÿx÷>4ó~Ç£ªŠAë+6´ã—Ş[‘õÆĞoüOE÷Ş0¥âÿè ¿µSzô‰³¿È>6{¶5û•_úYİŸpbşæ+^ó'TsùEùAïq[:Î~'†té”^ß¯aúªù¿'vYz¯deıNUñ;%7úŒµ1Ü{*''kôÎxGïÜß8şõcÛ9üöÙ–“ŞX’ÄnuwØøğ··71G,]ãİöí5ÛÕÄ÷÷À"+­õj#`åàP'?uwIÃ·{=ÿ›buUòš e(‡X'–J±yâlëÄ™EÇµÅC¢üæÿĞÀåaÀyuï7û]\¾$eyÒ¿Ü=‹Æ½¯[Ò¥ìİ÷»å'ŞQ¸¥Y{J‹Bg+¬CeíËÚNióìûâÚËô1å¸ Ä×Yb¬ÑÖu„ˆ¿gOLûÑ^’úŒûa°µÓüéûrÂO_İòş˜ïŒëÕÙT0rÀ{—÷ì~ñµíAÇ—Î‘¼½/ûy¬Ù¥ç[§£.ôİ¹>qé¼;3eíÎ±·_­¸Ş’¹ya÷kj¡|fÌ…[½µ§{¼7çâå™Ã¾.úäÒÜÛb“ÉÜÕ×|,¹î>¼8ö­ ‡ßrwbÍ®Î{sû’æ‡6>ĞËñZòÀ6ºÒWÍm.(Œ!÷wÜºQ]ùµÜÖ&«]ÎîU'ÍºõÍvı±¯¾| i£AË>şq×Kví^<Ş;Ïë¦õĞÎ±i0zµÆñX¥¦ô×V¦'nnÜäò½ÉS÷J¸²(wnÖÚæİß÷ñCarÃŸ–¾İ0LcLş¬µÇÏâ[vŸî<Ú~ó÷®¿´õûå«
+šn=0ÒÛÙw´]«¸#ûG·×ìÚ¼yC÷¡åï´{T4Î«h±Öš~¥ó cùb‹WEû«®î¼s8ğøÉ¢n¾1>ƒû_KøiÅ™·j‘óÑD¿±şÍÑ^¿]ü‰_ü¶ÃZO[2:iKö—¯étË9§zzHÖ&ÛÙ^å3¼?Kÿh‘û+Î©lëÆëû½¶ı¢×[7JÙ26^8Ş6¨çÚ¹ŞûŞæ²y£ŒßÎyÅe”¥IÈ*evÙ€>.û©ä×‰=z|¶àfçs¿1i9Óì^*Ï,¿”}måü#Á90ğdw·%'ï7YÜ&¨nøg.Ëª­ÅŠBk±\³8Î>&}V÷ämÀÄ©ÿ’PbµJ²á³LÈÇwÁ°lD„X›6—p<¶ÒÓûK1ûÇµƒ¥kkÌ¹÷nİÏs2½2{M±S÷°··%z½ÓÎ-`øÕş=×l#Œ|ç/ï³÷8İløAç“v·"ö¾%n(oş5£	n÷Õ4‡q©¯L˜;Ä'kıâÎ¯f:vöíŞ›ÔûÖ»ºÑºBÕúoæõ;4Ä(\M}%$Î×¹Éå÷”=nîğÁ'÷q£ŞËøåó¿´¸Dw'zÇ¹ˆÔµÙ©MÇ®(K©×ø«¨7ª¾?£pøzà¸w;7¼ì°»ÌeÌî¹­zğ}£şNİü—æsnñAçA'oÜhÿú¤o_Üôâ·o#7ÎxáÊ´%ÆÛKšô»8»eãu¡‰>ˆ´…|µ™k½qÓú9-*
+ü56áu¯¦ö5ÏN}¹÷…õŞwõ.ùüÎnÊÌßßªˆûxÆÜWvíñ*h0Øà¿í°ŸDƒÒæ]Âß8gÉ{åêôëIÃÎûw^4xê…/|åÕ52nÿÖ¾m|¸[_hòµ÷÷¹/Ôë=fs9¿k-[<ø»=ÚÍ¹ïÓõró%õ®zwŞeØŞa|Ç‹ŸìË+<—wÙçìÇÑoøi¯©ïw“f^ïŞÙºò½Yg¯xgıÃÓÒ/|2â‹7NÜèz¹sÃ•.ş+V¾4´èÒôä±ƒ75)ù¦ïÂñ÷ÿùÆˆ}ş¯¾Õ¬Ç'ç'w˜¶_ÕíÀñwÛ7)xó·ìª±æÄ@—†¼¹ ²GhIå†©ú3‹cïÌÛ°+º,«ôØ¹SgÔ®7`í¼ú”åïñâùÔû×Ú
+–·÷P“ŞdI&íIÛß¯«X”ëŞñä5nÁÏnÿ¡Fˆ=må§Á_zO³ö—7úµGY÷²®S:ÿ]}`ŞÂ¬…ÉZ{S2Ø:8$—¹Au–¹8kOkle®İ³-sC~uâ;Ty3?q¾uâ\ëÄ×kÄY'N²¶©iet¡u›•š“’=Ë‘”7.%7?(£`„5ªV kó1»“n$%I$‹Æ†¤BÇÁıx.Iş8Mş¨Êìş´±¡·§¼[z.~œ1è«“C-oÛÍ«>eÎ[íæ½tlœıìOÒFVíËûrÄ$Ûî6WÔ‡Z~Üiõ²_2¿KùØÒôİù/¤•Ì~éÕè}NÚÏÌØÕôK«v¯ÆUl¨ş}¤"¨áÛ—Z»½{|«û˜¹Í/\Mı¬Cë±…Ş¿¸¼´bvÁ¤™w>÷e£öNwÚ¹|µ`ÿöŒûAo–´	Ø9ÅS•™İ¿tŞÅIwö¼öKt£3[V|Ôô§ìë~Xïw£âô/ëßòŸ_Úİ±µİmå´ûBnh|dÀâ-›«ª÷|İ›¾ıN;µWÇÄˆ‘~Æ—7Şñ«:ØÂœYº©ß´Œìœ•ì‹ÄL€dq—îév{6wÿõük/›r´/u\9ú‡¨€´eû^ˆK²Ï=%|ş”³•¿TİÖ-Yàwş‹wçWÜ|!¥í÷_‰Çˆ_ŠGyjv'%m½uê ¿ûlÛOıoIkr}şİ%ç$'–DÔï—ùïªºÆ8½UäYAØøö»m:ñhzğØÒ¥ïZîÇ¼éùŞƒNŞE¿.®úxø]ç_øqÔXãõkÍŞgèúèÄfïŒQ—ÖßøêvE×2[®h½Áw›uöì¨)¯·şrQBl‹úZ–Œ­âUøS[õÆ6V^şÂ'K¦¾İwdBlLÇ=í>{{ô uQÌğêqï|òÑˆÃ>‹Ëwq(ìùEp1¿ÁZÌ¯eÆ:ñÍ÷ÂõôÇ?)›¸ŸÙ‰U\°}İO^@‹ÇgvÁÖºWµVïÇù`mİÕ]îmuVø?:Øô¥S‹gÆ4k5ÃšZ§Š}p‚5¾, Èÿ©ß
+ˆÿã§±K|‹|ştfÇ×~pe~bmæ‹Ò;ªCÌİÊœ6ïfU«N}ú²şıÔŸ÷ÌIk^²8½]ıUí?mĞôç?®~ÄşôĞ9ùÂñÕ˜p·ö—gø—¿ôÅ¶ÉGló_öïzö…Ã7ú&$µü$¥eù5ëÈ™qùjüĞøØ½Í6|8Ã´ÌÅnİo®W²cx›ÿÁolñ¢™ot3!è®£]ÇİûìïYÅ_~Íß—ajú–ár¡ıµ-çÊÖİx/‡=,œÓïrˆüõŞ®‹+?æ[´¿½ÈZõæü›çÒÕ}¼/œk»İã›^İÆ¨õG¯«¼Ã_Ù³¨ïÂŒË{±×‡–ÍnÁ5×İ:Éó¥/Yıqñe‡‡?/0şĞ}z¿ »ëw/r8ğğìˆ%Å¬?lO|‘\ÌjU]sÖ¿íFüéŸ´ÕñÉ¬†º.i÷øC¯½"×ÃÇÁ!áÁÍƒÃèƒã'=2gÆéÃ9Sw½pÌ%ªmp7Õş÷´É³¸e¢¾şhãñµ[†Y¶#»×íİfr;Í4Íœ½ğÃ›oÆñë¢O]všÒ~Î”µß]÷á˜à¯tnŸx½0xe£sï†GV¼İ$ÆkGbû_™v£Uíq³uÏ¬y½¹&fËeİö²Õ~Ê9EA'|]zXsÕOoJ]süƒÙİWÛGœŠ4®şhGøƒÎ¾{¾ìç%–¡Õ=2
+_i™şæÎ?-\µ"Qí«8dÈ]8Ò’Şußİâq}İ¾\ßoÆ®Ë*ïõú£·Ûş«mZ„œ½1¯EÛY)ïßUùæÏ?ÜR/ğK°ûËés«óG†,îá©,r;·èç+—âZ›;-Iä§|Ù*jT£¢—~n0³Mÿ‰Ÿ–´:S,}ªkOß»Åd–4ªa˜ÖLkÂ1‘L$Ğm˜6@G1Q@·eÚİit{¦Ğ™@G3Ñ@wb:ÃÄ İ™ét¦Ğ]™®@wcºİéNßJÁÄİƒé	t/¦Ğq}Çko¦7ĞñL ˜ û²1„a;³ ‡íÊîú ûĞ'¹	Ãíàî{À= ú!÷èj®h¯&oÇÛ†·çî§ ım ¿¢âĞ÷PWñ@uPWQ­€º
+›Âô#Å#Â(é´rJF	{<%«ôÚOÍFÍ©í§¶WİXİèVjè»:Fİènvî„±ó°ó œ§İK`c^şüœ%‰Ğ—ÎØ‹€Ÿ²Ÿ~Æ~ø9û9àì€GÙ£€_²_~Å~ø5û5öwà.nànn7ànà^n/à~ìÃä–så€‡¸C€\à%îàî
+à5îàuî:àMî&àîà]î.`Wxl+YìÉÙÀ’O¿Û(ğ ‚W míyG@'Ş	PÇë ¼ĞÄ› =yO@/ŞĞ‡÷ôå}òñ ó›ğM ƒù`ÀP>°)ß°ß°9ß°%ß°5ß°ß°-ß°=ß°#ŞÈwæÁÂ|W¼ïÎƒ¿ñ=ø€½ø^€½ùŞ€	|‚ìÒèKã.8ke%¯äE¥€j¥Ğ^	½V:*¡×J'%ôZé¬tÔ(5€%ô]éŞÂ¨y5HP‹j UA‚şĞgšÉŞÂÊ¡&S™İ„K——E4CóÒ†“¬¤‚lBßüÏôkg¦ß¥xôË+dŠş~0ßĞ g,Qá:÷ìCÌq=º›I@|\W3	“¯ÓïjHOìdJ s)‘8GúÅ$’€˜…XŒXŠ¸q?båˆá#†“[ˆ÷)2<¢#¢Ñ‚ˆßñ¥}¤ğĞ¢ú+ÿC¸ ŠÚå ìˆø“Caç2–L%¥dÙ.·¨”gÿªßŸ7j÷ûó@çßŸUüş¼Õ•ßŸGnúıy›±DÅÖ9ïz¿Îuğ¯~‡ëœ‹„ŒüıyÄğ…Yc…ı`'=®£¿÷Y9âÓX/`”1¾+0²+1¦«0š«1Ûa·Çxí ‘ë1sßr?ÖÜ-îé‚1:"ˆ;I‚XHò1Â.ÃØZ3äKuKˆ­§@›èSĞ×,m!p[æ;ÅLÒŸ'Ëa?¹‚¬$‹Èjò!y‡ì"ß“ärƒœ$?Á„>Ïf“ìIö[ò½È^"6ö:ûÃ°¿²¿2û€­fDãDØrÔç\Î•31Nœ…³0ÎŸ`´œ•eÜ;Ü;Œ‰ïÇ—0îü«ü¦3ÿ>ÿ>“É¯ç·0Ãøø=L.¿—?ÈğŸñ‡˜qüaş+æEşkş3‰¿Ì_c^ç¯óUÌ›üg–
+õ³VĞ	®Ì&Á$ø0Û?!ùXh"X™BS¡)ó©!´aÊ…¶BS!tº2'…X¡'ó­/Ä3§„DasZHR˜KBš0‚¹,ä	yÌ-¡P(d~&
+%ÌmaŠ0¹+Ìf1„ÙÂl¦ZxCx‹±	……¬ ”	ËXQX!¬`ÕÂja5k'¬Ö²öÂza+ë ìv±a°‡ÕåB9kß°®B¥p•m ü&Öc›ŠÎ¢3+jÅWØb¹x—İ«.QOg&§	ÑÆ@…™Ñö‡ãÈé³ çAyäÂj§Ãq6äyÊõşì¸T–C«8OYëà¸EÎ; ï©s<ù°\ö˜|<	ùŒ,»æx¬öšœoaf´°FjVÇÖò0ë”eZSçÚµßg²²/ä@È!r<b»ºHÈ wÜSê=§ú`È—Œ¶#ºÈÙ ÊòŠjëİÈ3¤¾êæÈ×Kk3Ñ-†¼œ0º57 o›¤Kmı]÷Ö9–C>ù8äÊ:ÇsOœ_‚|ı)Çsrı6äªÚ#«³I:ë!¦é!êê ë › [ ûC‚«œ¾Eí‘ÕGIºë£¥şé»É9îïÌ‰OäArN•õ&çÔßgô©:ù	9¬>£!‡ÛpıTÈ³êçÊüË$¿§c«_!!Œ·~­4núMÒuıv¶J£‰ÕÄö¢I×diò4c5€S‚üéÈŸüÍ<ä,D\Š¸
+q]zâÄ=2}dFúâIÄ3ˆ¯!ŞB¼‹øP¯eµJDGD Qk®åøjC´€‘ÚX+VÛEÛS› ¨MÖfh² ³)] -„^@µEÚ)ÚØÇ±Xk,ÊœƒXúºÛZŒm-\£İ€µJ ­dí6¼K»å—£üÙÚ#Pë8”¬ÔC	—¯×ÒFííZ¯¶
+%Û¨d¸EƒäJš–Ñ9É¶=´N¯3é,²Íêü5ëtA’ıájX-u-ä±8HQüh¼Ú1ËÄÕr|u‰Tİ ä¤B+Ãt¹ºÑºñºbİTĞdğ§èæÖ &Õg–/C\ ¯nĞkåQ†Öu›ğêvÄİµ´Q·¿–ã«;„­WĞqÔ¨ÑzØÕBÎñBMÉ'è+µ¸FwäXuw G÷õD¯õöš, )_o ‡ŞG ´U.•lüvúäÄ"'Ë÷G‚˜˜}´êóÇ"gÔ-ÑO¯Sr6â<Ä…ˆK±<Ìı:ıÄOĞ{ôëÕrNêÏH}Ñvº0kô×ô·4Yú»ú‡€×(Xƒhè£¶HwßàHë4¨¿3ÒFDóôƒ¯&Şh©á"‘’}´]€ÓA.¡¡‹¡'ØÄdH z !Jf²±Vb!bğ§ ½Ç0%ÏA~©d[mÃbÃrJÖ€œ†m€»{ek„«åPëˆf¡ÒpK^o§o¸n¸m¨i6”Y‹híƒ®¼«Z¢uQúu®Nôª«Ñ„h¡Z¹úkâ]ƒ\Ãêğa¾¸F¹FëFk¬®İ§9˜ˆô ”99©È†˜+¸n…ëh×ñ ¡Øu*à,×¹²Ô—¸.À’eµ­Cïq]š¬­á¸nrİ^£íµ¿ënä<Æ=®û‘>„úT  Üãz
+éxüßĞÅüßõë}#¡±Ñ(íÎRìBüßèaô´7H‘Ç(ÒˆW­À7¶’f"rÚÕáÜNŒ1VòI ãÒì0 =„ê`„9t`¾H†YƒWa¦'K¤>"æ‹q6p&ĞÙaœg\h\ŠuWÕô‘úŠFë*[a^¸˜Œ°ÊVãÀ, /bXYŒ·Œw±$]S*İX7¥ñ ›#-ï³ÃÍèfvóV··,‰ØÁ­‹[O·àtK¦2İ2ŸíV ‰q+Dºˆ"F9@·)n3ÜÀÛİJİS+¹-¯YË€^CWR·¨hå¶Ím—Û^·r·#€Çİ*İÎ¹]r»îvÛ­ÊÍfâMj““IW»ö]¯Û3M&“Åä/­Ë¦ S`S”´Ú‚•|MÑ4ršÀ“Mq¦D·½¦A¦T·½Úd,9Ì”kíbo*®Y5LSkWRi½“V:©]im’Z1=^BLskcxˆ‰®•&\LàÕn=Mka¨4m’,`Ú®]cÚ-ù¬kL4şûš ò›*L'L§LLWL751¦;È¹o:¥_çNÜ©7ÆºÛk×¸K~Ûı³?•ànÀ•h,p u+(º{ úĞVjJ‚o»[İÃÁòkÜ%ïgµ¬{;‰†º€X~!”¯YËVa[«ğê:÷­¯{¬{¥µEÈº÷§«Œûšò@§K+/Öİ‚u·P™´-¸š…˜'­¡¨ùaì‹´9fİ'¸Ã¼pŸî>KE™Ò¾ë$Ê<‰2O¢¶gÜ"J´Öè.íÊ.b-i?viÜ!¸oA™;–öfQæCİ
+C†ûAÏİaŸæ~Ìæ‘û÷‹ÆcÒêã:Ú<Öı–û]÷‡¬‡ÒTì:ÚÃ±f­ôĞxÀj|³æ ‡¯G &®†à«¡G„ëHàĞšÕ£‹GOiíóHğ~Rî‘ì‘á‘ívİ£@òùšÕPZM¤.Gxº^ö(DÚJW%"}¸ÇÒŠÑò°Ç3=J=.‡«k<6xdÔ®bÙuÖÙ-uÖAcõ«N»2&>ÆÇ+a±Ç6]ZÖc/µ›G¹Çhñ8j²Ê£ÒĞÅãœ¤3Ø¶‹Ç%Ôü:]Å<n{[UÚÀ2Gt÷=é®Ïê©ÖôtòÔ™NQ»çQ9º(ÃO“>ÜÓâéOí¦»ã;i—BŒ"Eİ
+Ï0º¾ÓU9Îº=[Pß <£(ºûxF{vÓè{ÆÌÄÇr<y¦J4Ö%î>tdİ}hÔ¥Şë9¯Æ¢üX,ï™ë9Ús¼g.ÒÅˆSõë<gÑuÇs®´_2Š@/¨‰ó¸.¯ èî%Ë ªwñ\¸VZa±ÌXj1ÏMÒÚ
+ºm÷„¸á¹ßóJŞœ
+ÏÒ
+k)êVPÄñ<%É¯iÖÜƒ¡&¤ÒWèJêyeŞ¡«Œç}iìP‡U’t+ÌÄ,ÒuÙlè{ŒMfğC³‡Ù‡ú¼9 ÑŠ^³ÏÔXÍ0/ÌíÌ1æXC†9Ş8Ïu´¹?–RƒætsMæ<ä@0O0Ã
+µ`54Ï6ÏÓE9O1÷×‡ƒ´…úpàÃì6¯2¯óˆ4o1ï hŞúŒ¦-RôˆÔİ7ÓYŒû+óaÃró1(s’je>SóÌÍ×Ì·àê]”sgkJj·şCªİëz±^°·ôrôÒPÿ÷2jz™½`ßèèûF #<*=X¯H¯ˆ] {Òº^	T¾×@Äd\ß'xTzexe{ÈXèUä5è^s¼J½K#ëµÊ¯ÁZp·åµÍkÒ{aèuÄë8Ò•Ò¨™¶{óºäu]cõºíU…hÓ¯³ğµÅÉ¢³˜,‹¿.ÈÃ×d	ÓÄXZĞº–(:FX×,İ,qÆchÏxK¢eÌ»Å–TÍAË0K®f‚…İAËx”Vl™j™e™kY`)³¬°¬µlÜnÙmÙo9d©°œ°œ²\ úŠå&Ğw€³ÂrßRáM¼Eo{ogoğ@:^Ş>Ş©½Á¼Ã½[y·ó`½c¨nŞ±ÔzŞñH÷¯ƒCÓ³<só‹8±q:J˜MıÊ{f‚÷BoğïUŞ°xoñŞW÷`Iğ/GoˆüŞÇ¼O>n, apÎ öT.§¼¯!Âİº§“·ä?ëğêCŠ>,Øp˜R3ÁÇÑG£òrô1"ßŒè‹åO>FŸ@Äê™>ˆ‘ô¾Ì§½/óéBÇWÆÔK}ˆ˜üønËöf>Ù>>…Î>°+ó™âUã8Åg†¥äÏÁVæÔÜµ]Šé®„xTÒhéQIï}×ŞÆ"?gDİÙ!İ÷EıÙg¹ÏĞar"®¢¨»CÑg›æ Ï.³$ÁàQé³×§œÎïy^Ë%İ!ûÚŞk9>Çi[tøTúœ£Ñc/ İ„aÂ
+Àvˆ¡¹OøQHÏFœƒøâÄ€½„…HS|4PÉ¦(¼M9üËˆ’œùX†şV¨è€üşÈ§%çcÉùÂJä¼¸Ë4@lu· ¾œ$,ó!r°Ö£†ˆï!¾xñÄÄ·7"¢|á]”Öi±	Eâ„e°§ôóEÀIxUƒ4öBHÀ2k‘S9Yˆ“‘ùQÈYDfŸCQÈÆ«;ğª"ıŒ¶¯E<Šh‡(ñ±Œñ(b Êlƒr¾™Gù­…mhÉ­hÉmÈ·!ÿ!òmÈˆÊQÂ!ì)öNXƒüÑˆaˆé€ø¤·"Öi;]Gº#"Ú\È§ÈGıŸ¨Å1m-ûÀÄ©(Sâä`ùyàise›tú"Ò9”Ïk%šòY;,ù#rì°äJsç(ò¾ˆÈ¹ørš"ı-ÒD9UR‹6{ ?@Î§xµb "jÅGLF,Eô—êŠ_Ş¡È³¹UÈ	Ï#­!®Am+~‡ôw”VøÒòAêá[±¿İQòVìoJn€’¿GÉ9âUjñ5JÛ¨í°Œ;–Ù€x[Æ5ˆØ­Å] µ¸;²ªI¸Œ’4j‡*If+?"·¥=”ñ<âÄï©>-°$jË}+[@C?‰§Èv¢ıb;Ññ!¨mˆdK?‰GÎHÏ#®A¤ºÕØ“ÖÍ¡µ¨ÿ¿‡¶‚¶z=¡JpÊñCM~êR+ñNÈC=ï#İJÆóˆkO{tŸÿ¢ø"`:–‰@ôGë}‚Ş*Üz0–Úz5w†ò¹jáà-,3Ÿ–Ñsû-Õ­®„2*ÊgO£œÕ”æıPÚ¤#QÚ=Äˆ§¡È›^I‘ÙHç,÷­ËÀ«ˆ{`É_eÏRı)òEà|ƒô7H¯BzZ{0-)ÒoBôÃº9XËk@97eú2í» 1_Pàˆ[ñê-,"£$Ò(_øé™ô»²&—©}£AŸ	UĞïstF›„
+¿àÜœŒv£2]°•õr]jóoh+Ü»T>÷ŠÄçËhyŠ|¤p•Z9ÓùhQQÂF”œP…3•L,@¿e2•jÂ	8‚¿Ñ‘‚ñBG5a—Ñ7Šñîhm5Jë†’¯ >”iÉ›¦v-kî´(¸SÏÄ‘:FûÈwA9&¬[¸ñs¹Ö@/§Èîn@ÉŠÌF´ÿ`Ôù3á´ØYÔóDidûP>l	¶U‚Wİ±ä`Ä2R~=l÷at8pø¨=™^¶p~áÚ¡ø£Yê±¡­_1şĞˆq]±šÆ=™¯úÄ@™ó#«r´\
+å¿h-Š¼[ï(–`$¡sJ-JkŸèOù+´wÈ±£ĞGD}¶Òè¡E› ÇÒ¹#›=Æ
+5®ÑËÄ OŠtß²GÖ–Ÿ…eh­³‚´{øÆ¹_ĞoQ>ØzË÷T¿KPç…8^yîÊ^DÛRŒEù!È_fcğ*Œ¬V¯`ë°›‚•ˆbÔáI‚­”F6\ƒ"dÁº°jó/	¸v“hLC\%¼Dc>–·Ã5n ³‰#ä@Ôm øÔ#$ßãª¯QOã»â,3aì*Ä2Y(­–Y…eÆc™dZ†}€1üe\õàZ6 £h8ÆdO¤ƒ›`ì½%é#Ì N¶¤§ »5~,îjÆc´ïAùÌ#'jC&×¬¯e9t½pCl…‘ü +ï‹W	Ú–pïdó†«si<‡µ˜â*iu~ÚFÊÜÆQ ZĞ"'‡r¸TÁŸr¸iÔbÌQì]h5<qø×S»jœõ¶îØ;\aÑ&¾ˆØni-¦3zAuH£åù1¸ú4Å2”Y…øâ§(-TA¿÷©"é*¤SŸ‘®Úr©7âê6å$#ÎFk”¢œ»hó58î'åØr”®€tv°Ëúı¶™tçû1_f%õ°ËšLi©×<i×÷aD
+U@¿Šşà@ù°>®£ƒ"Ä·×QZÛ¦ÄÈFK–ñ«pàÌå— ¿’"?uËEòmÔ»`†ÆâzAuN«(r+0şï–úbK¡Ñ^’€«êŒ±×è* W{`Ü Ö¨/•¯Fåº<z]İ.àÚ4%(íí³WŞ
+\y¤–§³u)En5m…$v§«bhõvÜ‡ßBšúF/:ÖìeÅPëÄŒÒóéúcÚ€E>ı¤“i=€ŸI8/#vÇxBãy$Fé{¸’¶BmO!mBşJŠ0FcèÊ"º£´&HÃ=ó­B k‡ˆwO¶8¨U€u[#Ç¡ÊùB²’x8Şˆ%Âi´ÒièúÂ)†'FQŸÆsj1C$è-Gøx´õŠm£ÑÃF%õp;Šv^‰åc nF¿²CzâY*‡}×÷ù¸â«qEfxéş‘Ñ`iÜyX_ø–ˆ*i‡€¾}Çë¾[k"ûzUhDi±(ß¥å İD–¼‘Æ¾/Ægº:´B9g¥±8‹ø k°w{iã¾Ç¾¼…ø9–iŠ’—áqB=÷Ò=3³í„3b8î¢Eéj5ÎAa
+ÎÇ)èi÷ÑTZoYOê·ç?D¾Ä.İ19ZÜÙ~#ù¶í[ ÏÉsïûªéwyaü£ÁLìİ(´ÛLÊa¾GNCÄJ‹œêGÔßpr–î» %Ox•®Pè®¸+>†}¼-Ú¡Òïƒ5¾Á meJ'Ñ%bp-ËÅ™ƒÜ?ğC‘£¡1O–é{x•®®BcJËå©µ'¢mO¢m“¥«Ô?y`|c´Éu”ì'ÑR<¦áA×ë›xï%=Ç°9 çî3— Í£±_KĞß&âˆßÄ>ş„sDôU,éäìGN¤/Qkğcãˆ8„OÔS{Î¦qƒG:iW¤'=§;O3¶û#ÖmÆãóöC*1ùzÄnôi Ÿ€„Q®uøñìK'”¶S•é,À«WPB[D‚ÈãwwËÔÚ,È}œ³ˆvÈùñ]×¢ø¤¥š~S|¹ĞùtÏpWäl±çòŒá:œ½¨¯‚§¢m§¢Ÿ³CĞ¶h±N´<Ì/ß—ü¼ú~SÕ Ø“$Óo»ª«ƒÔÁôÕÄÈœc~`®0W™›Ì/Ì¦š±1X‘­ÇjXWÖÄº³ÖmÂ³!`×l{¡©êeü~näXÈñû#Ğ4ÅËG)õ'CH:¦,ù(¥<2ôYÎøtŸrñŸ!"wÛ¡âDéîy?^Å§/ÂWD¾óüûw<d7ÙO¿½«hKXb-İA·Id	h·Rs²R²‘l&-ÉVH‘d/ÔhCBjGAjO¾#gIò=¤ÎäH]Èr—t%UbáHF`Ò“~ã”ô~î‘8áğ€ô	H‚ÈŠé+
+¢@ú‰v¢é/Öë‘¢NÔ‘¢—h!/ˆMÅp2XŒ#H~›ı0ŒÌarŒœ$gÈErÜ‚62,£d¹Ë3d_&	a"˜H¦Ó¸¦'“Àd’™&›)€³B¦ˆ™ÂÌ`æ0¥ÌbHË™5p¾Ò6f³°J=NG ¦”
+kÓâ:é8Ö•êoc*¡5*ñs	´íëPş6”«‚6–ú^<KWÿÅôé"—ËÃªÊ•ğô$fñsİS~b)òK‘NGÔ!ÆPdâ‘%—œƒrh$ÈÓÿèà~î|éÕ¥ˆ{Ií"ä¶ÑZˆqø¹¸¢rôîl-Ò%ô¿;ØdüÑ,qğê6¬•8kår·‘Ş†4-¿ñ8bâ@™CË’kQŒAˆXŠÿ%R‚ÒÖÊåéóÌÅ”oÖ–9ÄTÑÿYà=xüO˜çßéş¿ön;ÂØ;b¯ƒl‚lÁ#cãi9L¾ÖxQl•½ÁŞã%ûüEş³r†¿¸şgåŸVÿïÑÁğ¾áuş3¹†gÔóYdúüå¦Çjöù¨ïó´ïo;Ë—ŸFÿ3úğ?è·Ïÿ²½ÿj®ìÿ<füYıgËkœ¥UîYÚû[}ú³rCŸµo½ÿÍìó(3àŸĞ¦ÏSdúüúş¯Ë…Ïóóü_’éÓŠGGğ)Æ5|¢ñ*¢=ò¥§C¿Ô<Ùœˆ|¸ÛåÓÅåmôyoº"‹>q¢ù©Ç0’KŸz¨#àÑQ~êÑ—$#Üö'&’Mr€7’'™D3ùœ"-ÈH­Èò+iM~ƒÔ†½ÉşD¢à^ğ!iÇ¹q&Òîü’h|BQ
+÷Ÿ¥d1Üi®;ËpÜ¸ò^ ÊÉ¸FóqR	gçÈ%rÜ†|S9¦*bcxFÍ81:ÆDªãÏ1aLàDÁ•hÈİ€Ç$2ƒ˜T@úHqø¾YR‡0ÌîÙD¼ßgùø”àÒGj$ÈOğÙUç‰A.>Uãé»0Jê<=8SçÂZÄ0|‰SçI‚éš'	g@“Ux/óøi è6ïñaùmµÏì±L:bigå' tdéó3:²Í-0²"Q5\s$õH}(¡%:¢'üE¨\ÛÉä2¼Jf’Yd6yÌ%o’yd>ÙGö“
+ç»8’İ@V7B3¥ºá1±NÜ8’*ói9ø5×Ñ¾=zPëÓE?Á¥Èœ“húé¾Ï ì‚ÿ;½b2‡±W-?Óø?øL<H¨b«„*Á&ò¢Ztu¢I´ÀÑ_ÃÄb”-vãÄDq˜*ƒ³\q´8^´U¿Ob1”æå4UTcrz"Íé4Í…6rÿpu\‘Ú¥)W,ƒÖ¥´Ú}2­½1Â´	ô›‹:>™¶ƒ,)—“Ónq¿xH¬€|B<ÇâhıH¬oŠwÄû¢NAàên¾[Rˆ€O¦IIa¯pVPŞï’Â¤K©[©“> ]ÚrP-×Kbi…ty2íV„Ó'Ğâ\ÁÔJÑNmÍEmŸ¦#&…(%ù,ÇM¶¾"^Oí
+8LÑp<–‰Ç>\À«7C—Æ£¤,Eb,¤	ŠQ­˜.†)fƒ„yŠ…0’”ŞM{¥X
+r£«ë[`R;à|Œ”E±GqPqüi´â˜â¤âŒâ"êC¯¶@?	R\ƒ´‡–MŠ[Š»bT]Ñ¨À(+Š%«T*eãáÈƒ©JõoE¼Ò:*Íôı4Ê@Ù×åç +\¡ŒZ ÿGÏ|½dKBLEi¾ÊÊ@(A-—‹³c´äaPv?&eeO3:Â£•	`pĞt ø†(VĞşAï/‚®`l+@÷İè-AÊdHà£ÑwvË¾vËİD ”¨Pf+¶(€.„Q•EÊ)ÊÊ9ÊRñr±r9H¸O½]¹tª@­7€ŞÛ”»$ÏÍÁ×”{¡5V(‡tDy\aR_˜w`N >şñ;+P»P¯	ª™/pÍH-@ÏÀG‡‰aÊJHç”—”×¡ÍÛªó”6¯R«œT:H&•Eå¯
++TaØWèñ¾ª…˜¨ŠREÃ•n`é›`ÇUÌ:gU¢j*ìQct[5L•i´xd‡ÒÅª©`ÃµÆ«f‰eÊÕ\ÕU™j´­Z«Ú¤Ú¥v«‚³•	ªà§£UûÅªíªCª
+ğßC¢Euzs_£:\P]QİDÏwoªîÀx'‚4rİTİW}ö0K¶¨ÅhµA,S,Uñ@y@òªLÜ­*V(–ª­P§B<'ğ“
+ñ´UAm\yÔ­ÔíÔ1à‡Ô
+wÔ±êxuõu:ä,uä!À« .QTQ¨§«§«Õ³ÕóÔÕKÕ«ÔëÔ[Ô;Ô{èü•DúíñäG°àµ¸Ï%ôsØJ¤[Pš+Ä•rnR„½¥}‘¾‚XŠxq^µ¤=Â.ÛqºûBz4b2âb,¿–"/"'9ñ{#&üL)¥›-–¤4—‹eè™{(íJhIh…^-A9YXÆqrLˆ•Xf©¤	• ıE=é†›EQÚï0xÕuH—zAèÑŒ#Úc™‹AhÈÜÃòø&+f;bø£Ú_Û4ÀÎ(çEÔ*ñöt1Ú|¢ùfÙ†Ôş‘¾Œû¬ûØëC(‰Œ;óh êFi­?Ö¢ßP½üèfÍ®Ú
+¡{]¬[‚t!j>{Ñ¥ñØ÷UØÇ¥´/lÖ.Ùu˜i»A5´Ñ_ÀM¦#Ë®Búc¼úÒG£´tÄY8‚öÈ_Œ½N¦uù#¶¾8š”¯Dë­¥~¿Ìï‹H-‹cƒxµM¶Ñû,_Z†‰–¡>‹‹³µ*µKê¡ïÕC/¢ßß[(÷ºzH=ô|lû{ÑËD/"ç-”6ûU‚¶ºŒe.K~=Äo¸M@~"åğ	¸k„å‘¾†8{TŠX‚å+P‡ÅT>ßËd`/”Øú&D%ò.Ôy–¯ÂqìBKBëÇqŸ>G\MGgÙ
+É†(á"z—BšwØ£H!ÿŠ4ı.âæ½Ã’=3Gøl¹4Sã±nz”™ƒ^Aû2SòÉ¶´näH_AŒ¡Ö˜†v˜†óbú µa;Ä´Ã^¤EÄaÈ¹ƒx9'‘ŞN±ö“VúÎ,éırÏ?iı¿xWÂbw‡0v÷¥—sÚ‹l•İ}{ò<?ÏÏóóü<?ÏÏóóü<?ÏÏóG¦÷vô»ÀDMè¤j>/%e	Ü<|°àyúÿ1Á½¼öŸş^î{ÄŒïâ‚¿”0#a¾‹{'¾‹ûşÂÁU|šP…ÏÖÒ_sàéçOÕ¦½¬Ú¨ˆÚ(P%j£BmÔ Ç	bz|NÜ¹; MÎÆ="MyW’f S}Òš×ñzÒ7ñî¤#ß&ø>¤ñ	|_’º6 ¨k)¾7|	¾7|í¼~ïÃdv†l€ì!gÈ­Ã!·‚ÜräXÈñûËeÿì8D–AéOœÓc–œó ­sœ ¹D.7]>Î†<O–[s\Xç¸ò*Èë o‘å¯’¯ïõŞù äÃÕ¹~ò¹‹¯A¾Uçú]È~‚²#dM£ñ‰s3dß§r=rÈã#ÕGˆ€	¹ä.{BN€<r2äÈÙTg¡ r¡œ‹şÎ<å‰<CÎsd}Jå<ç÷mW'ÿAÎbÈË!¯¼ò¶:Ç]2/ärÙ`Œ„#²<7á¸4.B¥t]8GŞç¬\8×
+R;.†‹åâ¹şÜ.Ëâò¸±ÜÌ%Ütn67[È-…¼Š[ç[à|¤=ÜAÌ‡¹cÜIàŸá.r×¸[Ü]î!=ò,¯ä¹y¼†7òfŞ—„c7€Éwà»ğ=ù òÉ|ŸÍğ˜ù"~
+?ƒŸÃ—ò‹ùå@­î~¿¯ïåËù#üqÌ•PŸæsü%ş:›¯âm/¨'A'˜h¦-	Hşr
+‚T—“SHQĞ‡»Ü]!ú‰ÔR¤Dæ:ï+âNbN†	¹ÂhîH‡šÂx¡˜(LŠ¾İço{ú;ŞóôoxúŸ½ÛéÏŞÃô·ß½ôÇ·.=~ßÒ?şv¥ì½JÏúF¥Ú»”Œøvò»4$¼xq7"}J¨Âö]*£ÀO<ğªRñ=–é…||ÿŠxé*¤ñÿ¿!ïÖR d~ÿNÑ	ùøßá
+´§ˆ£ 8ƒö¡üùr‹±wRIÒ–FÿYc*.AÄÿgUFÜ‡%g`|gƒ8 ùøV0…9-FI[+"ş·®8i/ñ¤¥o§–Q¡¨4¢•$N8Ò#‘n„ô8¤Cñ?û%¤ïo º)ò5ˆøíE¬ŠuCEüüP¤ßÅ;JßÚÂE‹ÍÇ÷ßÌ§4ğóŸü<ä£oˆş(Gòé›èÃŠAÈ¡#ÒI!½dòñmU
+7Dì©€=ğ{”Ò[1D:µ8"­¿•Gz×‘ôÿÖ°KÜÅ£ß—Ä½a¿aé›wsG	Qöñ—Wì ÊşB<½›‰WÁÏ“w†æÖ4à;ñˆß‡ïCüùDØ6Ä_1
+ø—ÉmÆéÇål³GšfØ12m­Ãw~"Ã‰={&ØÛØÍIåâå#åÁ:Æ‘ÏÓåcVœ'ó`OÄLy% í)H ]tñ
+¹ç÷áæìôäBM‚b¨>w#åú_aàhÅÎ´bÚÁîÓ
+ú1òûùä7ğÕ}—Ş?òş¼ºïÉ“Ş„'½÷Nz¿İ#Œôs5ï³á÷vé&ØĞjŒÕ‘“ŠôtD\Glø}^Û6ä ÕøŸÎÕŸ âÌ­Ş‰x	ñKDôíjüßçê´]›?İ'p_’q¬îo_âo_­­ıí«ü•*Ø»ü]O<HÒXIE¢åo‚y@¿;<šŒ—K3DAˆxêmÁ¤%iK:‘î¤7éG“42œŒ$cÈKµ¿¡¥OWGâJÌÄÆ;„´"íHş¸ô¿ßYø¿Şjg+g+gk:ÊĞ¨H=âBŒÄ‹’PÒŒ´&íIgÒƒô!HJF|2¼ŒåE'q#ÒXş¥.è£&õA’‰xDšBÿ#IÒ…ô$	d I&øC´…¤HnS vÄjºÒ„„“æ¤éHº’^¤/y¤L’CF‘ÉDRœ’”UÀ9"ê=}ƒÃS’òÓ¸HÄˆ]{"& LI‘Ë%#æ"N@œ¸ qâ¶Ô¬Ì¡Ü^ÄrÄ#ˆÇS³sFp•ˆç/!^G¼X…hKÏKJáyD{D¢	Ñ11,+'%‹o…Ø±bÏìQ#òøÄˆÉˆˆÙˆˆ…9pà‹§ Î@œƒXŠ¸qyN^j6¿qâ¶|°¿q/â!Ä
+Äˆgò3³Óù‹ˆ×o!ŞE|HQ`óó­Á‚ÑQƒhD4#ú†ˆaˆ­; vCŒ"¦"f! G,f ÎA,E\Œ¸q`Saâ6Ä]ˆ{Ë †Ç+Ï!^B¼x°™P…h£(òˆjD'D`„hB´ ú#!†!¶È•œ/F!F#vCŒCLD”?*7_LE†˜‹8q<b1~;‚~óüÙŒü»i…ßıÆÜ?çŒÇ3‰f0>Yˆöÿƒ#ƒ¿?Èâïèé—å0ST?3:=3ºüµØ>‡G¦R½êòê=êşYü„¿çèJŒÇ‘Èÿ×hztôxô||Û:şúÃš«i1™C–’Md/9;§ÛË83&vGqL23YÃì`1•Ì5æ>«fl Û‚íÂög‡±…ìtv»†İñÿº»òğªŠ+>çÌÌ»óî!$1… È"Ä°G´hEi6QÑ*TÙ"„°VQÃª"Ê$ì‹\Q)  ‹bDKûÙ~ıZÚªEÄÖZK‘ÒşfŞ@ó|íWûWÍıŞœwî»wf~s–9grß<>Àò1áé:û{‡¼"‰_ŸÄ¿–Äï¨Å#àíµxÄ¨ò¸¨Ü›È›.‰÷GSëO-Oâ_N¬?õpÿ»ÄëëŠ$>;‰3‘OËt<ÃâÒã5¦x:Ù}¢ ƒ,È¼…?{8NëezÚ×Ó¤q¬w4gz^->!½sâõ™Ó“ø©IüÌ$¾ò?ğS’ø-‰í_Ô+ñó¬ãI|’d}RKxSp_‘x}ıqI|ùàË’øaş[mÃAŒ_¸Q*>“Kå2|’."ÑVÑ–Á©à´ö÷hE™B¹O°»9yrü„SIØÁI©£­›‘›B¢‘nÄÅ×!Zì…Xq°m›¾okŒ¶ˆ^¶;„©xÌ,}<)}t+}-}t©ëVŠÇÅ¼›/–ˆjÄäX{İ‹= jÄ‘h{ÁÑ–Ñ([E;¢Ì3JppÆDaJ6¡;“âÎ¤Ú3ÑËÜ]ùî®Öö®hw¦­;ÓÎÕ“-$ú}Æ\l)îÌ=¾¡¥àùÏûÏsıçMüç—¶ßÔRğÍ@;€on)ø4×«t×«LÛ+à&k/ñg`ñÊEr[­y8ş{¯)ö·ra’i.&ÈÀÜ{ö›kÖ«_Ü–Õw7A\ß1ysØ™}ú²•Ëzóë·AœŞ9IH¯ ~'ä	W"nïŒ,åjd]ÁwE¾rr‡ëËwGæRˆ,¢Q})r˜È'z"¾ï…l¦2‹¾î;’·#O¹ı²¡»!Óí=È‹AºC5…|‡CÎ#İ·(G!ÿ)G.RÜ`2¡	ÈJ&!K¸9Ñdä'Ù|AL…LGvc¿…·Y<'¶ˆb—8$ŞƒÇ~_| >Ÿ‹?Ò÷èº–ºQwdµÅTJ=èfêMsh.Í£'i>=Eèiz†Ò"ZLKh)-£å´‚¥•TEÕ´ŠVÓZKëàñ7ĞFÚD›é9ÚB[i½@/Ñ+˜^§´Ò¯é7t”~K¿£ßÓGô±Ûïë}JÇé3:AŸÓéOôı™¾¤¿ĞWôW:I£Sô5öûÁt˜Y²bÍ¬:bn‰q
+×áT®Ëi\Ó9ƒ/â–Ü‰¯ã¸sÎ^Ş‡™æm>Ä5|˜?à#òUùºü‰Ü%ß{ä[r¿<(ß“Ë?ÈOågòsùùWù7ùµü»ü‡R*¢Œª£êªzê;ªj¨rÕ%ª¹ºTå©|ÕFµSTê¤®TÕÕª‹êª®S×«îªX•ªª§ê¥ú¨[ƒ¯ƒ¿ÿ0d¤Ñ&0Q3uL]SÏd˜‹Lsi¨Ã Œ†1hî øˆ=üïçƒü¿ËïñûüS¹]¾&wÈr·|Sîµ>EÖÈä'ò˜<.OÈ/åWò¤<%OË3J*­•¢RUšÊRõUj¬š¨fª…j¥.S­U[Õ^uT—«+ÔwÕUê{êu­ê¦nPEªDİ¨nR7«Şª¯õ9°/ûW&bŒ	MŠI5i&İdšú¦E¨ÂHhÂĞíßÖ6lç|SÇ° ¼<ì^á#L;{å:[l‚R‹Yb¿ÌÖ#u¿u(³ÊK¬g³õ¨o	>Ék`ëï±læ@AaP
+¤9ˆóòéuF¬WŒh¯â½aTN“h
+Í„×XÏ°ö¿v#<Œğ(,ı}‰;­¨¡ŸÃ|k?ÉÖy§q}Î…Å¶ã+¹+,¶'ßÆıù^Åø!®äÙ<Oäğ]<˜ËxOÆ™Çy/ãÕ¼™_ä°ïC|„Åñ	şŠÏÈˆL•Y²‘l&ód;ÜyZ*™"3eÎäËyµ¼^–Ê>òN9Pò~9UÎ–óåY-7Êç!¥İÎ!‘#É•r½Ü
+Éí†´ËåQHëyJ±
+UºÊ†/Èƒè«/†­÷SıÕ`5"¸óXaPôp´8¸ÉÑ’ §£¥A/Ğ"¼ëíhQĞÇÑâàGK‚¾–˜çq¶0¸İÑ¢ Ÿ£ÅÁ–w:ZÜZ‚ëîv´(èïhq0ÀÑ’à‡–AKqİ G‹‚ÁC-Alliip3æ×¢àV”ÅÁP–÷ ,†¹şÃ=¾ßH¯Ìã»Ïãåqö¸Ê=®
+k¬Ç5ÎãïqMğ¸&y\?ò¸î÷¸ğ¸&{\y\{\S<®G<®©×P (Æ8\®®JkšÇ5İãšáqÍô¸f{\y¹=îñ=áñÍñøæz|ó<¾'=®ù×ëiëk¡ÇµÈãZâq-õ¸–y\Ë=®×£×,'µ§®Å×J«Êãªö¸Vy\«=®µ×:k½ÇµÁãÚèqmö¸ó¸¶x¹ıØãÛêñmóø÷ø^ğø^ô¸^ö¸^ñ¸¶{\¯z\¯y\Ï:\k®MNj/9\;<®Ÿx\;=®]×nëMkÇµ×ãzËãÚçqğ¸z\o{\ïx\‡<®ë=ë°Çõ¾—ÛßO=¾#ßÏ<¾Ÿ{|¯;\o8\û®w­ÔàcóEİ:ˆî£Q4†*hüêdz¾õQª¤ğ°¿äŞÑøçº‹Ğ@Ie4şw<M¤èAzˆ¡©4¦Ó/¸Wô]û4ùxÎáOæ)üOåG¹Ò®ñ „tŞÖåaäögM÷QtS›ŸĞXëûq%Îø8³]üŠf¶‹k/æUn<{m¼İÅ¼„—Â[/çü,¯ä*®>¯]Ì›¢›\!Ÿ…¿­‚^%WË5r­\ï»>y“Ü,Ÿ“[äá‹·ÁC¿ _”/É—å+±ş±±Æî‰ŒŠ‰İ+‹İ+‰UÄÆÆÆÅÆÇ&Ä&òLu¡Ñài<g /Á¹[—ˆl;¢€GóhÑ‰+ø~qoà¢+oá-ˆñ±^È‹0K=†yé	Ãsy?Éóù©[ÀOó3¸/âjnã éê¯ãêÏrõ×wûÇÆøN´_Ác1ûÇœ8‘'ñp%²¾ƒïğuK>O†Ím‹Q¥ã$"tL»=LO¡L/ÓWæ3P¤˜Áf¨H53Í,‘n3sD¦yÒ<º’kláj¬BuPãzWã&!íî¬¨ÑÖ«]½ÆÕ[ÇÕ[×7#E†¹ÏŒY®‹]Íb³T41ËMt)Sey³ß{#§Gílğ=W®ˆicÚ ç7šÛĞN?ÔšiÆ¢6f•Ùˆ,ê¬fù>ÿ/5Å×ØcY«.röòÍj<[W£„Ş}óéE‘å‘ªÈÉHudUätd]4Šlˆl”WE6G¶#Û"ÏG^
+šÍ‚ïXíƒvÛï<ÏFvhÄbòãù8RÅ±òbè~†_ıHu=›îîJÛAg‰WQ>-8Šœw22Í™àì:ÃJ±¹æó¸j§Øëv>"><·ÏITd(2©>åP.5£–µw¦ÔÑdº¾Ïz¾Ú{W×Š)kèˆı¦$E)D#ûßıÆxw	µ„¶AÀ¥ıNe^J%ØÕ¥(Ó(e=ºXØ5Ë”Ôe&5B=vå 	¸¦Ô
+e3ÊCÙœ.CÙ‚òQ^J­ÑF[êHÈ¨Ğ• íérú.î¼
+ [ãÕ¯¶à·áeÿg
+/øuÊrFüN1g‡3Â™‚u¶FOtk{tW¼+ÒÅ(K5¢H}³î¥%ê[t_»º×ğãôx=WÍÕóP.Ò˜ïõR½eµ^…r^‹r½Ş€r“Æ¼­_×;4æK½KïÖo€îÑ{5æA½_ĞqÕ§ú¸àHZ¤ÊŒH&z7-œ¹_ÉÏ‚Xùîv;øìdßûÄ~q ~GÔœ[QøX|"ş€¼ Ê­lEî¿¾i´Ì–Ëu¯¯Ñ…ºD÷Ô}ô(]®Çê9z¡^¢«ôj½NoÔ¯éúM½O‹Ô¤‡•v…L^ït¯/´-EHÓvĞÖZI¼wÅş
+»æ,(Ş®û¬û¹»sá«¢ĞŒ¶X{Œê-Á¹“]»ow œï¿ëŸí›ïîî'ò(„ÙõíhT*4)”ÍÉ„¦4ƒ†´€ft„6\NWAº3 ÕÖd)d³2YYl‚vcÔèO1Îá4´›çF÷Âc{Ş¸G;Šÿvä¨‹(e¢\Œ“`ŸSD¥³Ğy°îEb¬tµX;İ*^„¥î@Û{ÑŞ!o­¿Ga¯ÇÄ	XìWâ”8CLàOŞ,Ê¦F‡È Qg´â·A‚¬`{Ë#ØÁê6G°8"ûäBC¼şekK#ØÁÊì#XÁ²è¬UÁ^ÖBö×T¼¥ì„`%¡ZÖAöWDìSwöY9ØÙ'áìoÀÈ>'; Ø Aÿ	ºOĞ|‚Ş“}VÈé|Á¯óß\ÇmÄäâ¡Ñçt8Î1Úğÿ´~å×»»uÄŞTèÖ»}KÖCØ­‡ËÃJ½$’´¦åÖ÷ÅÛº¼Ö*P„ÚùøÙÊµQ­ÈØò™>.#7«¨jÄ šCói›óªhiş‚‡¹=ñÀ]‰Ç‚óS‘x •Ë’èKâ±æüÃT'ß(–±£cÿÛlÿkìŸÛy~àˆ²!ş}Ö˜ø{»/IÖµå#Ëòs»M,‘ŸûıòAÃósKT”]èlEÙ?í=ƒ
+endstream
+endobj
+20 0 obj
+549
+endobj
+21 0 obj
+[3 3 549 5 5 549 7 7 549 8 8 549 9 9 549 10 10 549 18 18 549 22 22 549 23 23 549 131 131 549 132 132 549 133 133 549 134 134 549 135 135 549 136 136 549 137 137 549 138 138 549 139 139 549 142 142 549 143 143 549 144 144 549 145 145 549 146 146 549 148 148 549 149 149 549 150 150 549 151 151 549 152 152 549 153 153 549 154 154 549 347 347 549 348 348 549 350 350 549 613 613 549 616 616 549 617 617 549 618 618 549 619 619 549 692 692 549]
+endobj
+22 0 obj
+<<
+/Length 871
+>>
+stream
+/CIDInit /ProcSet findresource begin 12 dict begin begincmap /CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def /CMapName /Adobe-Identity-UCS def /CMapType 2 def 1 begincodespacerange <0000> <FFFF> endcodespacerange 39 beginbfchar <0003> <0020> <0005> <0042> <0007> <0044> <0008> <0045> <0009> <0046> <000A> <0047> <0012> <004F> <0016> <0053> <0017> <0054> <0083> <0061> <0084> <0062> <0085> <0063> <0086> <0064> <0087> <0065> <0088> <0066> <0089> <0067> <008A> <0068> <008B> <0069> <008E> <006C> <008F> <006D> <0090> <006E> <0091> <006F> <0092> <0070> <0094> <0072> <0095> <0073> <0096> <0074> <0097> <0075> <0098> <0076> <0099> <0077> <009A> <0078> <015B> <003A> <015C> <002E> <015E> <002D> <0265> <0030> <0268> <0031> <0269> <0032> <026A> <0033> <026B> <0034> <02B4> <003E> endbfchar endcmap CMapName currentdict /CMap defineresource pop end end 
+endstream
+endobj
+15 0 obj
+<<
+/BaseFont /CIDFont+F1
+/DescendantFonts [<<
+/BaseFont /CIDFont+F1
+/CIDSystemInfo <<
+/Ordering 16 0 R
+/Registry 17 0 R
+/Supplement 0
+>>
+/CIDToGIDMap /Identity
+/FontDescriptor <<
+/Ascent 919
+/CapHeight 638
+/Descent -250
+/Flags 6
+/FontBBox 18 0 R
+/FontFile2 19 0 R
+/FontName /CIDFont+F1
+/ItalicAngle 0
+/StemV 20 0 R
+/Type /FontDescriptor
+>>
+/Subtype /CIDFontType2
+/Type /Font
+/W 21 0 R
+>>]
+/Encoding /Identity-H
+/Subtype /Type0
+/ToUnicode 22 0 R
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Font <<
+/F1 15 0 R
+>>
+>>
+endobj
+23 0 obj
+<<
+/Filter /FlateDecode
+/Length 717
+>>
+stream
+xœíYÍnÛ0¾û)üåHı‘†ÉĞv+Û°Ó€íÔCûş‡ÑÅâZJ£&Kl¸†s!Šş(‘?#Ú¯E@ÌwÇs¬î0üõÔ<7Ç‹úÁËŸf»o°İ¿4_vÔR€è]°‰ıï†Úág¨åŞ*¡B0-tíş©ùñ‘Ü½IÄDå\L¹x‰2ú¡è’EŠÛ7ñg»ÿŞ<ì›ÇQ\«ª?¸Œ’ÃÆšRø*>­İÔL•k±¶·²ËÅpHı·İ$İß½É"UTR~hh*ä¦J÷·¹k¦bf*.x&‹fP²h‘ñ£E´¦,¾–zEh•–SÕTu6–î³#Æêww¥eÍ£#3jÑ¢›*)LQu'wƒµ€~Px\ŠçÈ£Ù³×ê”#”lÎtêF.ë”Spİ¡½S×œEœ‡S!A}z›“š‰S‚L‹âû'Eñ[³¸róŠKi*ØÊÀ–5„=l­Â³€íMO¤ƒÓÃŞTaK­„—~2/|?œuXöGùÚâŠû°·šhoƒuíÒ»ù8î§ÅƒÖ¨,YÚ†¼déD8M‚%Ñ©Ü¯ãÜL…“º‹ÓÿíçTmUğØÙˆútŞŒÖG%+^¿eOŠ5±¨¥©£Š4ì…§ª£A uIÂ+‘^‰ôGÑ‚ïÒ”W"½éëBÉsşh9&‘ŠÉÄhzqğĞ´"™ò·Ö%é(O""ÒÉù×Ç)–OE¤ûYÖ°ÿTD:EgÀég&Ò‰¼–á°é›ï­XË„''Òìbù85K"ÍÁ•¯Q³$Ò¶—‡á¼j™TË¸+Éí°Çä‚'ÅªÄdìVböœ´²Û•İ–¡kŞ9­ìve·×…RrÀd¡Dú›XXALËñ‚Ø­hµFÉ¹±[5=ìşà±[’?>Şœİ>6ê ñ
+endstream
+endobj
+24 0 obj
+<<
+/Font <<
+/F1 15 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Filter /FlateDecode
+/Length 815
+>>
+stream
+xœíZÍnÛ0¾û)üã¨_’@1 šÃnrv°zXßÿ0ih\KI˜­Õ:sNDQ¤ø™¤?¦_€X>¯‘ØÃğçc÷§;Ş4~wÛ}‡ış©û¼3½ñœõiaÿ«3ıøÓÓ Õ €ORhûıc÷ım”/ÉF™ïĞ„¯ã)b(§…0šø2ıÑï¿u÷ûîa³m„D„³7ªÙ\L¥FŞ–«Í¼ğ"%/Ü³GvâYÃ²ÙT®úÒe§îİhªª½´½b´Ë¬÷R«»ù˜ìÊ)`Ï{´@÷ñÃ*AUå43jámí <ßF^LoÌË¼6ƒ/¸?R•«ª…«$PXÕ ÖXHøCô zE˜P}ÜtğU³¨Vm'$:c¸"j^ªHKÂc,¹J•jU…a.°Ä÷S¬bÖ<ªƒ²STÙX¨ÂÚ£K·qáóBÚ
+Ø\ªdH§¬]×lÓª?ixîF‹ÚTÍW«²±Yˆ…€RÖ28d-[B‘´ S„Õ˜¶CµsÃğcWjÔî¶Ê6ì§)e+r‘úŒn-CÆ)Å¥T
+UGe½Zb›ûºhaQ«€Ó½¥YoóÔÕ-9†EˆQ=w§uU_Wû[µ—Í*VKs­y7ÚÛ0ñ°—Ş_9å4¨	2\h(®Ü;«SI |zç2¦SÜÊ)C[yŒW5>bñN9dÓèÚHñà$sBæt¤8¡ªä¾•å9¦ÎšiQ\@ÿd—ÌÀ‹à²´2po~·jyŞ£É,‚Xıï¸V.0C?óÊÀ­Ş1€˜i·2p7ÊÀÅ@`Ó”••Zé¨‹h©E»ÒQ+õ:(2Ä$en‰"Êï·@G‘·Àùá†è¨¥Ãğvè("“ú5	‹¢£H|ù‘ct§[ê¤£Ø2øÌâJG½ùİú ™¦“Dş¼G“ ')KçRÁ}‘£¶¾LY›VvJIÓåtu;[Ñ{’ä0h:K™ëv¶j«Ä™’#GÜÌÖGW)+Lx~ëµi•8\ÈHã^øD}èş¤~E
+endstream
+endobj
+12 0 obj
+<<
+/Type /Page
+/CropBox [0 0 612 792]
+/MediaBox [0 0 612 792]
+/Resources 14 0 R
+/Contents [23 0 R]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/CropBox [0 0 612 792]
+/MediaBox [0 0 612 792]
+/Resources 24 0 R
+/Contents [25 0 R]
+/Parent 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R 4 0 R 5 0 R 12 0 R 13 0 R]
+/Count 5
+>>
+endobj
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Version /1.7
+>>
+endobj
+26 0 obj
+<<
+/Producer (iLovePDF)
+/ModDate (D:20220107110955Z)
+>>
+endobj
+27 0 obj
+<<
+/Size 28
+/Root 1 0 R
+/Info 26 0 R
+/ID [<318C72188A339B397FCEEE238F7D15E5> <61E68759417D4465735DA2C538F2C823>]
+/Type /XRef
+/W [1 3 2]
+/Filter /FlateDecode
+/Index [0 28]
+/Length 110
+>>
+stream
+xœc```øÿŸ‘qú~ ™$îƒÉC òˆd¸&ùÁd1ˆdt‘ÉK@ä¥' ½ÓRÀäÙ_"{€MX&÷‚É«`ò'H¶CLZƒÈ.V°®• rØ%“Ş€İóDÎpc`  ”I †
+endstream
+endobj
+startxref
+104518
+%%EOF
